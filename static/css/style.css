@@ -8,26 +8,42 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: #cac6fd;
+  background-color: #E9D8A6;
 }
 
 
 #jumbotron {
-  background-color: blue;
+  background-color: #9B2226;
+  text-align: center;
+  color: #E9D8A6;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 #chloropleth {
-  background: #D0B17A;
-  color: #41521F;
-  text-decoration: line-through;
+  background: #0A9396;
+  color: #001219;
 }
 
-/* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
-.wrapper {
-  position: relative;
-  min-height: 100%;
-  padding-bottom: 130px;
-  overflow: auto;
+#state {
+  background: #EE9B00;
+  color: #001219;
+}
+
+#line {
+  background: #CA6702;
+  color: #001219;
+}
+
+#bubble {
+  background: #94D2BD;
+  color: #001219;
+}
+
+#activities {
+  background: #BB3E03;
+  color: #001219;
 }
 
 /* The footer is positioned at the bottom of the page */
@@ -37,5 +53,15 @@ body {
   bottom: 0;
   left: 0;
   min-height: 50px;
-  background: #f5c396;
+  background: #BB3E03;
+  color: #001219;
+  text-align: center;
+}
+
+/* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 130px;
+  overflow: auto;
 }
