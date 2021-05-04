@@ -17,33 +17,49 @@ body {
   text-align: center;
   color: #E9D8A6;
   margin-top: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border-radius: 5px;
 }
 
 #chloropleth {
   background: #0A9396;
   color: #001219;
+  border-style: solid;
+  border-color: #e9d8a6;
+  border-width: 5px;
 }
 
 #state {
   background: #EE9B00;
-  color: #001219;
+  color: #040607;
+  border-style: solid;
+  border-color: #e9d8a6;
+  border-width: 5px;
+
 }
 
 #line {
   background: #CA6702;
   color: #001219;
+  border-style: solid;
+  border-color: #e9d8a6;
+  border-width: 5px;
 }
 
 #bubble {
   background: #94D2BD;
   color: #001219;
+  border-style: solid;
+  border-color: #e9d8a6;
+  border-width: 5px;
 }
 
 #activities {
   background: #BB3E03;
   color: #001219;
+  border-style: solid;
+  border-color: #e9d8a6;
+  border-width: 5px;
 }
 
 /* The footer is positioned at the bottom of the page */
@@ -53,8 +69,8 @@ body {
   bottom: 0;
   left: 0;
   min-height: 50px;
-  background: #BB3E03;
-  color: #001219;
+  background: #005f73;
+  color: #e9d8a6;
   text-align: center;
 }
 
