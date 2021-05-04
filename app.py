@@ -33,9 +33,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    test = "we did it!"
-    # return render_template("index.html", listings=test)
-    return test
+    name = 'Rosalia'
+    return render_template('index.html')
 
 # @app.route("/data")
 # def scraper():
