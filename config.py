@@ -1,2 +1,2 @@
 #postgres password
-password = "dummy"
+password = "miniD0nuts"
