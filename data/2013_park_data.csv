@@ -1,0 +1,393 @@
+Year,State,Park,ParkVisitorCount,ParkPctChange,StateVisitorCount,StatePctChange
+2013,Alabama,Horseshoe Bend NMP,"55,965",-4.61%,"749,857",4.48%
+2013,Alabama,Little River Canyon NPRES,"185,477",-7.77%,"749,857",4.48%
+2013,Alabama,Natchez Trace PKWY,"420,892",8.13%,"749,857",4.48%
+2013,Alabama,Russell Cave NM,"20,456",-2.38%,"749,857",4.48%
+2013,Alabama,Tuskegee Airmen NHS,"19,301",-18.62%,"749,857",4.48%
+2013,Alabama,Tuskegee Institute NHS,"47,766",98.78%,"749,857",4.48%
+2013,Alaska,Aniakchak NM & PRES,134,605.26%,"2,585,980",7.19%
+2013,Alaska,Bering Land Bridge NPRES,"2,642",0.00%,"2,585,980",7.19%
+2013,Alaska,Cape Krusenstern NM,"18,225",-26.95%,"2,585,980",7.19%
+2013,Alaska,Denali NP & PRES,"530,922",36.68%,"2,585,980",7.19%
+2013,Alaska,Gates of the Arctic NP & PRES,"11,012",1.04%,"2,585,980",7.19%
+2013,Alaska,Glacier Bay NP & PRES,"500,590",10.18%,"2,585,980",7.19%
+2013,Alaska,Katmai NP & PRES,"28,966",-27.25%,"2,585,980",7.19%
+2013,Alaska,Kenai Fjords NP,"283,502",0.79%,"2,585,980",7.19%
+2013,Alaska,Klondike Gold Rush NHP Alaska,"928,150",8.65%,"2,585,980",7.19%
+2013,Alaska,Kobuk Valley NP,"16,875",-42.89%,"2,585,980",7.19%
+2013,Alaska,Lake Clark NP & PRES,"13,000",11.69%,"2,585,980",7.19%
+2013,Alaska,Noatak NPRES,"16,907",-45.46%,"2,585,980",7.19%
+2013,Alaska,Sitka NHP,"161,157",-17.42%,"2,585,980",7.19%
+2013,Alaska,Wrangell-St. Elias NP & PRES,"69,984",-19.70%,"2,585,980",7.19%
+2013,Alaska,Yukon-Charley Rivers NPRES,"3,914",180.98%,"2,585,980",7.19%
+2013,American Samoa,National Park of American Samoa,"17,919",71.64%,"17,919",71.64%
+2013,Arizona,Canyon de Chelly NM,"828,478",-0.01%,"10,103,264",1.24%
+2013,Arizona,Casa Grande Ruins NM,"65,106",-5.14%,"10,103,264",1.24%
+2013,Arizona,Chiricahua NM,"40,646",-1.25%,"10,103,264",1.24%
+2013,Arizona,Coronado NMEM,"92,936",-4.76%,"10,103,264",1.24%
+2013,Arizona,Fort Bowie NHS,"8,082",1.46%,"10,103,264",1.24%
+2013,Arizona,Glen Canyon NRA,"159,354",-3.37%,"10,103,264",1.24%
+2013,Arizona,Grand Canyon NP,"4,564,840",3.25%,"10,103,264",1.24%
+2013,Arizona,Hubbell Trading Post NHS,"75,678",0.82%,"10,103,264",1.24%
+2013,Arizona,Lake Mead NRA,"1,586,179",0.94%,"10,103,264",1.24%
+2013,Arizona,Montezuma Castle NM,"389,091",-14.54%,"10,103,264",1.24%
+2013,Arizona,Navajo NM,"54,168",-6.96%,"10,103,264",1.24%
+2013,Arizona,Organ Pipe Cactus NM,"206,860",27.89%,"10,103,264",1.24%
+2013,Arizona,Petrified Forest NP,"644,648",-3.04%,"10,103,264",1.24%
+2013,Arizona,Pipe Spring NM,"51,118",-6.53%,"10,103,264",1.24%
+2013,Arizona,Saguaro NP,"678,261",6.93%,"10,103,264",1.24%
+2013,Arizona,Sunset Crater Volcano NM,"184,864",3.98%,"10,103,264",1.24%
+2013,Arizona,Tonto NM,"39,632",-23.61%,"10,103,264",1.24%
+2013,Arizona,Tumacacori NHP,"31,433",-10.60%,"10,103,264",1.24%
+2013,Arizona,Tuzigoot NM,"85,746",-11.95%,"10,103,264",1.24%
+2013,Arizona,Walnut Canyon NM,"125,267",13.11%,"10,103,264",1.24%
+2013,Arizona,Wupatki NM,"190,878",-5.21%,"10,103,264",1.24%
+2013,Arkansas,Arkansas Post NMEM,"36,420",-8.27%,"2,776,183",1.79%
+2013,Arkansas,Buffalo NR,"1,125,227",2.94%,"2,776,183",1.79%
+2013,Arkansas,Fort Smith NHS,"69,584",-20.37%,"2,776,183",1.79%
+2013,Arkansas,Hot Springs NP,"1,325,719",1.78%,"2,776,183",1.79%
+2013,Arkansas,Little Rock Central High School NHS,"114,144",78.52%,"2,776,183",1.79%
+2013,Arkansas,Pea Ridge NMP,"95,251",-27.79%,"2,776,183",1.79%
+2013,Arkansas,President W.J. Clinton Birthplace Home NHS,"9,838",10.14%,"2,776,183",1.79%
+2013,California,Cabrillo NM,"856,128",-2.49%,"35,575,100",-1.16%
+2013,California,Cesar E. Chavez NM,"8,157",,"35,575,100",-1.16%
+2013,California,Channel Islands NP,"212,029",-15.05%,"35,575,100",-1.16%
+2013,California,Death Valley NP,"951,972",-3.31%,"35,575,100",-1.16%
+2013,California,Devils Postpile NM,"91,794",4.50%,"35,575,100",-1.16%
+2013,California,Eugene O'Neill NHS,"2,929",5.02%,"35,575,100",-1.16%
+2013,California,Fort Point NHS,"1,591,312",5.89%,"35,575,100",-1.16%
+2013,California,Golden Gate NRA,"14,289,121",-1.73%,"35,575,100",-1.16%
+2013,California,John Muir NHS,"37,777",1.00%,"35,575,100",-1.16%
+2013,California,Joshua Tree NP,"1,383,340",-0.92%,"35,575,100",-1.16%
+2013,California,Kings Canyon NP,"567,544",-3.97%,"35,575,100",-1.16%
+2013,California,Lassen Volcanic NP,"427,409",4.85%,"35,575,100",-1.16%
+2013,California,Lava Beds NM,"105,395",-41.91%,"35,575,100",-1.16%
+2013,California,Manzanar NHS,"77,511",6.43%,"35,575,100",-1.16%
+2013,California,Mojave NPRES,"549,599",1.30%,"35,575,100",-1.16%
+2013,California,Muir Woods NM,"954,125",-1.87%,"35,575,100",-1.16%
+2013,California,Pinnacles NP,"237,677",5.88%,"35,575,100",-1.16%
+2013,California,Point Reyes NS,"2,641,808",9.50%,"35,575,100",-1.16%
+2013,California,Port Chicago Naval Magazine NMEM,596,11.82%,"35,575,100",-1.16%
+2013,California,Redwood NP,"393,364",11.59%,"35,575,100",-1.16%
+2013,California,Rosie The Riveter WWII Home Front NHP,"31,514",,"35,575,100",-1.16%
+2013,California,San Francisco Maritime NHP,"4,154,455",0.59%,"35,575,100",-1.16%
+2013,California,Santa Monica Mountains NRA,"633,054",-2.53%,"35,575,100",-1.16%
+2013,California,Sequoia NP,"909,274",-17.83%,"35,575,100",-1.16%
+2013,California,Whiskeytown NRA,"776,025",-4.71%,"35,575,100",-1.16%
+2013,California,Yosemite NP,"3,691,191",-4.21%,"35,575,100",-1.16%
+2013,Colorado,Bent's Old Fort NHS,"23,324",-9.65%,"5,393,745",-7.19%
+2013,Colorado,Black Canyon of the Gunnison NP,"175,852",-8.68%,"5,393,745",-7.19%
+2013,Colorado,Colorado NM,"409,351",-9.94%,"5,393,745",-7.19%
+2013,Colorado,Curecanti NRA,"814,163",-5.62%,"5,393,745",-7.19%
+2013,Colorado,Dinosaur NM,"203,027",-9.41%,"5,393,745",-7.19%
+2013,Colorado,Florissant Fossil Beds NM,"58,032",-7.35%,"5,393,745",-7.19%
+2013,Colorado,Great Sand Dunes NP & PRES,"242,841",-4.65%,"5,393,745",-7.19%
+2013,Colorado,Hovenweep NM,"10,982",-6.56%,"5,393,745",-7.19%
+2013,Colorado,Mesa Verde NP,"460,237",-5.86%,"5,393,745",-7.19%
+2013,Colorado,Rocky Mountain NP,"2,991,141",-7.38%,"5,393,745",-7.19%
+2013,Colorado,Sand Creek Massacre NHS,"4,795",9.38%,"5,393,745",-7.19%
+2013,Connecticut,Weir Farm NHS,"22,862",6.51%,"22,862",6.51%
+2013,District of Columbia,Chesapeake & Ohio Canal NHP,"1,185,928",4.86%,"34,202,516",-0.24%
+2013,District of Columbia,Ford's Theatre NHS,"665,876",-5.08%,"34,202,516",-0.24%
+2013,District of Columbia,Franklin Delano Roosevelt MEM,"2,837,729",2.65%,"34,202,516",-0.24%
+2013,District of Columbia,Frederick Douglass NHS,"47,625",-10.67%,"34,202,516",-0.24%
+2013,District of Columbia,Korean War Veterans Memorial,"3,209,279",-1.77%,"34,202,516",-0.24%
+2013,District of Columbia,Lincoln Memorial,"6,546,518",5.74%,"34,202,516",-0.24%
+2013,District of Columbia,"Martin Luther King, Jr. Memorial","3,205,654",-14.25%,"34,202,516",-0.24%
+2013,District of Columbia,Mary McLeod Bethune Council House NHS,"5,686",-14.44%,"34,202,516",-0.24%
+2013,District of Columbia,National Capital Parks Central,"1,712,858",99.47%,"34,202,516",-0.24%
+2013,District of Columbia,National Capital Parks East,"982,495",18.27%,"34,202,516",-0.24%
+2013,District of Columbia,Pennsylvania Avenue NHS,"257,831",-8.97%,"34,202,516",-0.24%
+2013,District of Columbia,President's Park,"658,065",9.66%,"34,202,516",-0.24%
+2013,District of Columbia,Rock Creek Park,"1,968,995",-1.72%,"34,202,516",-0.24%
+2013,District of Columbia,Thomas Jefferson MEM,"2,609,463",-0.14%,"34,202,516",-0.24%
+2013,District of Columbia,Vietnam Veterans MEM,"4,142,721",-6.37%,"34,202,516",-0.24%
+2013,District of Columbia,Washington Monument,0,,"34,202,516",-0.24%
+2013,District of Columbia,White House,"231,627",-64.74%,"34,202,516",-0.24%
+2013,District of Columbia,World War II Memorial,"3,934,166",-5.47%,"34,202,516",-0.24%
+2013,Florida,Big Cypress NPRES,"1,007,788",14.19%,"10,282,814",-0.81%
+2013,Florida,Biscayne NP,"486,848",-1.77%,"10,282,814",-0.81%
+2013,Florida,Canaveral NS,"1,133,688",14.00%,"10,282,814",-0.81%
+2013,Florida,Castillo de San Marcos NM,"778,128",7.00%,"10,282,814",-0.81%
+2013,Florida,De Soto NMEM,"279,924",-35.35%,"10,282,814",-0.81%
+2013,Florida,Dry Tortugas NP,"58,401",-3.55%,"10,282,814",-0.81%
+2013,Florida,Everglades NP,"1,047,116",-8.30%,"10,282,814",-0.81%
+2013,Florida,Fort Caroline NMEM,"307,086",-6.19%,"10,282,814",-0.81%
+2013,Florida,Fort Matanzas NM,"523,694",5.25%,"10,282,814",-0.81%
+2013,Florida,Gulf Islands NS,"3,628,474",-2.72%,"10,282,814",-0.81%
+2013,Florida,Timucuan EHP,"1,031,667",-4.15%,"10,282,814",-0.81%
+2013,Georgia,Andersonville NHS,"98,771",-19.62%,"7,046,578",-4.13%
+2013,Georgia,Chattahoochee River NRA,"3,039,892",-4.05%,"7,046,578",-4.13%
+2013,Georgia,Chickamauga & Chattanooga NMP,"452,992",-12.28%,"7,046,578",-4.13%
+2013,Georgia,Cumberland Island NS,"51,435",-16.36%,"7,046,578",-4.13%
+2013,Georgia,Fort Frederica NM,"217,580",-17.03%,"7,046,578",-4.13%
+2013,Georgia,Fort Pulaski NM,"374,408",-2.94%,"7,046,578",-4.13%
+2013,Georgia,Jimmy Carter NHS,"67,455",-3.55%,"7,046,578",-4.13%
+2013,Georgia,Kennesaw Mountain NBP,"1,924,076",-0.61%,"7,046,578",-4.13%
+2013,Georgia,"Martin Luther King, Jr. NHP","704,168",-0.47%,"7,046,578",-4.13%
+2013,Georgia,Ocmulgee Mounds NHP,"115,801",-3.52%,"7,046,578",-4.13%
+2013,Guam,War in the Pacific NHP,"266,267",4.04%,"266,267",4.04%
+2013,Hawaii,Haleakala NP,"785,300",-28.26%,"4,902,696",-4.23%
+2013,Hawaii,Hawaii Volcanoes NP,"1,583,209",6.69%,"4,902,696",-4.23%
+2013,Hawaii,Kalaupapa NHP,"101,112",71.74%,"4,902,696",-4.23%
+2013,Hawaii,Kaloko Honokohau NHP,"158,124",2.96%,"4,902,696",-4.23%
+2013,Hawaii,Pearl Harbor NMEM,"1,786,024",1.99%,"4,902,696",-4.23%
+2013,Hawaii,Pu'uhonua o Honaunau NHP,"363,282",-17.88%,"4,902,696",-4.23%
+2013,Hawaii,Pu'ukohola Heiau NHS,"125,645",-6.52%,"4,902,696",-4.23%
+2013,Idaho,City of Rocks NRES,"94,906",-4.13%,"614,412",10.99%
+2013,Idaho,Craters of the Moon NM & PRES,"200,525",1.52%,"614,412",10.99%
+2013,Idaho,Hagerman Fossil Beds NM,"21,008",-12.23%,"614,412",10.99%
+2013,Idaho,Nez Perce NHP,"297,973",27.83%,"614,412",10.99%
+2013,Illinois,Lincoln Home NHS,"209,405",-29.13%,"209,405",-29.13%
+2013,Indiana,George Rogers Clark NHP,"128,531",2.03%,"1,935,295",-9.94%
+2013,Indiana,Indiana Dunes NP,"1,681,695",-10.99%,"1,935,295",-9.94%
+2013,Indiana,Lincoln Boyhood NMEM,"125,069",-6.35%,"1,935,295",-9.94%
+2013,Iowa,Effigy Mounds NM,"71,074",-9.51%,"199,993",-3.55%
+2013,Iowa,Herbert Hoover NHS,"128,919",0.08%,"199,993",-3.55%
+2013,Kansas,Brown v. Board of Education NHS,"19,356",-8.27%,"91,930",-9.65%
+2013,Kansas,Fort Larned NHS,"27,432",-17.36%,"91,930",-9.65%
+2013,Kansas,Fort Scott NHS,"25,773",2.95%,"91,930",-9.65%
+2013,Kansas,Nicodemus NHS,"3,241",-7.53%,"91,930",-9.65%
+2013,Kansas,Tallgrass Prairie NPRES,"16,128",-14.75%,"91,930",-9.65%
+2013,Kentucky,Abraham Lincoln Birthplace NHP,"163,928",-3.30%,"1,604,722",-6.59%
+2013,Kentucky,Big South Fork NRRA,"231,676",-5.85%,"1,604,722",-6.59%
+2013,Kentucky,Cumberland Gap NHP,"714,578",-10.03%,"1,604,722",-6.59%
+2013,Kentucky,Mammoth Cave NP,"494,541",-2.66%,"1,604,722",-6.59%
+2013,Louisiana,Cane River Creole NHP,"25,556",-9.73%,"624,047",-0.30%
+2013,Louisiana,Jean Lafitte NHP & PRES,"400,128",-4.66%,"624,047",-0.30%
+2013,Louisiana,New Orleans Jazz NHP,"198,363",11.50%,"624,047",-0.30%
+2013,Maine,Acadia NP,"2,254,922",-7.25%,"2,265,631",-6.80%
+2013,Maine,Saint Croix Island IHS,"10,709",,"2,265,631",-6.80%
+2013,Maryland,Antietam NB,"370,832",-27.42%,"6,615,152",-0.65%
+2013,Maryland,Assateague Island NS,"678,753",-4.55%,"6,615,152",-0.65%
+2013,Maryland,Catoctin Mountain Park,"175,213",-33.58%,"6,615,152",-0.65%
+2013,Maryland,Chesapeake & Ohio Canal NHP,"3,755,439",4.86%,"6,615,152",-0.65%
+2013,Maryland,Clara Barton NHS,"22,737",-10.30%,"6,615,152",-0.65%
+2013,Maryland,Fort McHenry NM & HS,"678,431",-8.82%,"6,615,152",-0.65%
+2013,Maryland,Fort Washington Park,"443,918",20.36%,"6,615,152",-0.65%
+2013,Maryland,Greenbelt Park,"142,742",-1.93%,"6,615,152",-0.65%
+2013,Maryland,Hampton NHS,"32,262",-14.03%,"6,615,152",-0.65%
+2013,Maryland,Monocacy NB,"37,647",-20.32%,"6,615,152",-0.65%
+2013,Maryland,National Capital Parks East,"109,166",18.27%,"6,615,152",-0.65%
+2013,Maryland,Piscataway Park,"161,999",30.53%,"6,615,152",-0.65%
+2013,Maryland,Thomas Stone NHS,"6,013",-6.43%,"6,615,152",-0.65%
+2013,Massachusetts,Adams NHP,"285,501",-15.04%,"9,678,050",-7.72%
+2013,Massachusetts,Boston African American NHS,"386,084",-4.49%,"9,678,050",-7.72%
+2013,Massachusetts,Boston NHP,"2,245,875",-14.58%,"9,678,050",-7.72%
+2013,Massachusetts,Cape Cod NS,"4,501,898",1.36%,"9,678,050",-7.72%
+2013,Massachusetts,Frederick Law Olmsted NHS,"6,570",-24.20%,"9,678,050",-7.72%
+2013,Massachusetts,John F. Kennedy NHS,"17,273",-23.71%,"9,678,050",-7.72%
+2013,Massachusetts,Longfellow House Washington's HQ NHS,"40,554",-22.36%,"9,678,050",-7.72%
+2013,Massachusetts,Lowell NHP,"517,763",-3.68%,"9,678,050",-7.72%
+2013,Massachusetts,Minute Man NHP,"947,894",-5.32%,"9,678,050",-7.72%
+2013,Massachusetts,New Bedford Whaling NHP,"276,374",2.40%,"9,678,050",-7.72%
+2013,Massachusetts,Salem Maritime NHS,"426,328",-43.61%,"9,678,050",-7.72%
+2013,Massachusetts,Saugus Iron Works NHS,"8,154",-29.77%,"9,678,050",-7.72%
+2013,Massachusetts,Springfield Armory NHS,"17,782",4.74%,"9,678,050",-7.72%
+2013,Michigan,Isle Royale NP,"16,274",-2.33%,"1,989,195",-9.27%
+2013,Michigan,Pictured Rocks NL,"575,450",-3.06%,"1,989,195",-9.27%
+2013,Michigan,River Raisin NBP,"57,464",13.42%,"1,989,195",-9.27%
+2013,Michigan,Sleeping Bear Dunes NL,"1,340,007",-12.51%,"1,989,195",-9.27%
+2013,Minnesota,Grand Portage NM,"88,598",-4.89%,"658,330",9.49%
+2013,Minnesota,Mississippi NRRA,"100,111",-6.20%,"658,330",9.49%
+2013,Minnesota,Pipestone NM,"64,760",-14.82%,"658,330",9.49%
+2013,Minnesota,Saint Croix NSR,"171,471",55.16%,"658,330",9.49%
+2013,Minnesota,Voyageurs NP,"233,390",8.63%,"658,330",9.49%
+2013,Mississippi,Gulf Islands NS,"1,209,491",-2.72%,"6,784,616",5.19%
+2013,Mississippi,Natchez NHP,"191,095",3.55%,"6,784,616",5.19%
+2013,Mississippi,Natchez Trace PKWY,"4,810,192",8.13%,"6,784,616",5.19%
+2013,Mississippi,Vicksburg NMP,"573,838",0.10%,"6,784,616",5.19%
+2013,Missouri,Gateway Arch NP,"2,377,258",-4.78%,"3,888,912",-6.78%
+2013,Missouri,George Washington Carver NM,"33,061",8.66%,"3,888,912",-6.78%
+2013,Missouri,Harry S Truman NHS,"28,977",-7.47%,"3,888,912",-6.78%
+2013,Missouri,Ozark NSR,"1,253,703",-10.88%,"3,888,912",-6.78%
+2013,Missouri,Ulysses S. Grant NHS,"38,604",-1.95%,"3,888,912",-6.78%
+2013,Missouri,Wilson's Creek NB,"157,309",-5.92%,"3,888,912",-6.78%
+2013,Montana,Big Hole NB,"38,092",8.19%,"4,281,517",-3.82%
+2013,Montana,Bighorn Canyon NRA,"130,425",-1.75%,"4,281,517",-3.82%
+2013,Montana,Glacier NP,"2,190,374",1.31%,"4,281,517",-3.82%
+2013,Montana,Grant-Kohrs Ranch NHS,"18,848",10.25%,"4,281,517",-3.82%
+2013,Montana,Little Bighorn Battlefield NM,"277,883",-19.76%,"4,281,517",-3.82%
+2013,Montana,Yellowstone NP,"1,625,895",-7.53%,"4,281,517",-3.82%
+2013,Nebraska,Agate Fossil Beds NM,"10,504",-11.16%,"257,903",-15.18%
+2013,Nebraska,Homestead NM of America,"67,396",-35.01%,"257,903",-15.18%
+2013,Nebraska,Niobrara NSR,"71,876",8.90%,"257,903",-15.18%
+2013,Nebraska,Scotts Bluff NM,"108,127",-11.74%,"257,903",-15.18%
+2013,Nevada,Death Valley NP,,,"4,851,429",0.88%
+2013,Nevada,Great Basin NP,"92,893",-2.06%,"4,851,429",0.88%
+2013,Nevada,Lake Mead NRA,"4,758,536",0.94%,"4,851,429",0.88%
+2013,New Hampshire,Saint-Gaudens NHP,"37,837",12.40%,"37,837",12.40%
+2013,New Jersey,Delaware Water Gap NRA,"3,438,779",-2.56%,"5,028,646",2.94%
+2013,New Jersey,Gateway NRA,"1,238,249",22.75%,"5,028,646",2.94%
+2013,New Jersey,Morristown NHP,"304,941",3.51%,"5,028,646",2.94%
+2013,New Jersey,Thomas Edison NHP,"46,677",-11.18%,"5,028,646",2.94%
+2013,New Mexico,Aztec Ruins NM,"41,312",-7.67%,"1,512,529",0.65%
+2013,New Mexico,Bandelier NM,"126,682",-15.71%,"1,512,529",0.65%
+2013,New Mexico,Capulin Volcano NM,"48,466",-0.50%,"1,512,529",0.65%
+2013,New Mexico,Carlsbad Caverns NP,"388,566",1.97%,"1,512,529",0.65%
+2013,New Mexico,Chaco Culture NHP,"29,917",-23.38%,"1,512,529",0.65%
+2013,New Mexico,El Malpais NM,"137,904",20.25%,"1,512,529",0.65%
+2013,New Mexico,El Morro NM,"40,051",-10.62%,"1,512,529",0.65%
+2013,New Mexico,Fort Union NM,"8,965",-2.71%,"1,512,529",0.65%
+2013,New Mexico,Gila Cliff Dwellings NM,"27,825",-2.84%,"1,512,529",0.65%
+2013,New Mexico,Pecos NHP,"32,386",-28.93%,"1,512,529",0.65%
+2013,New Mexico,Petroglyph NM,"115,075",-3.66%,"1,512,529",0.65%
+2013,New Mexico,Salinas Pueblo Missions NM,"24,836",-15.03%,"1,512,529",0.65%
+2013,New Mexico,White Sands NP,"490,544",9.65%,"1,512,529",0.65%
+2013,New York,African Burial Ground NM,"93,234",20.11%,"10,986,810",-13.03%
+2013,New York,Castle Clinton NM,"2,180,694",-33.20%,"10,986,810",-13.03%
+2013,New York,Eleanor Roosevelt NHS,"43,686",-20.64%,"10,986,810",-13.03%
+2013,New York,Federal Hall NMEM,"148,647",-11.07%,"10,986,810",-13.03%
+2013,New York,Fire Island NS,"294,219",-39.13%,"10,986,810",-13.03%
+2013,New York,Fort Stanwix NM,"129,089",-33.82%,"10,986,810",-13.03%
+2013,New York,Gateway NRA,"4,952,997",22.75%,"10,986,810",-13.03%
+2013,New York,General Grant NMEM,"83,440",-9.71%,"10,986,810",-13.03%
+2013,New York,Governors Island NM,"355,553",2.10%,"10,986,810",-13.03%
+2013,New York,Hamilton Grange NMEM,"20,429",24.89%,"10,986,810",-13.03%
+2013,New York,Home of Franklin D. Roosevelt NHS,"147,218",8.45%,"10,986,810",-13.03%
+2013,New York,Martin Van Buren NHS,"16,229",-26.44%,"10,986,810",-13.03%
+2013,New York,Sagamore Hill NHS,"14,639",-27.16%,"10,986,810",-13.03%
+2013,New York,Saint Paul's Church NHS,"14,016",-13.42%,"10,986,810",-13.03%
+2013,New York,Saratoga NHP,"54,364",-5.76%,"10,986,810",-13.03%
+2013,New York,Statue of Liberty NM,"1,883,544",-37.83%,"10,986,810",-13.03%
+2013,New York,Theodore Roosevelt Birthplace NHS,"18,676",4.16%,"10,986,810",-13.03%
+2013,New York,Theodore Roosevelt Inaugural NHS,"19,198",1.71%,"10,986,810",-13.03%
+2013,New York,Upper Delaware S&RR,"114,232",-10.61%,"10,986,810",-13.03%
+2013,New York,Vanderbilt Mansion NHS,"372,569",-11.94%,"10,986,810",-13.03%
+2013,New York,Women's Rights NHP,"30,137",1.87%,"10,986,810",-13.03%
+2013,North Carolina,Blue Ridge PKWY,"7,983,968",-15.31%,"16,138,182",-8.85%
+2013,North Carolina,Cape Hatteras NS,"2,214,565",-3.80%,"16,138,182",-8.85%
+2013,North Carolina,Cape Lookout NS,"416,568",-13.27%,"16,138,182",-8.85%
+2013,North Carolina,Carl Sandburg Home NHS,"81,710",-12.54%,"16,138,182",-8.85%
+2013,North Carolina,Fort Raleigh NHS,"263,598",-6.47%,"16,138,182",-8.85%
+2013,North Carolina,Great Smoky Mountains NP,"4,116,066",-3.42%,"16,138,182",-8.85%
+2013,North Carolina,Guilford Courthouse NMP,"541,581",72.82%,"16,138,182",-8.85%
+2013,North Carolina,Moores Creek NB,"72,330",-8.84%,"16,138,182",-8.85%
+2013,North Carolina,Wright Brothers NMEM,"447,796",-4.07%,"16,138,182",-8.85%
+2013,North Dakota,Fort Union Trading Post NHS,"12,908",1.82%,"572,474",-14.46%
+2013,North Dakota,Knife River Indian Villages NHS,"14,476",-9.58%,"572,474",-14.46%
+2013,North Dakota,Theodore Roosevelt NP,"545,090",-14.90%,"572,474",-14.46%
+2013,Ohio,Cuyahoga Valley NP,"2,103,010",-8.55%,"2,404,918",-7.90%
+2013,Ohio,Dayton Aviation Heritage NHP,"59,274",-10.19%,"2,404,918",-7.90%
+2013,Ohio,First Ladies NHS,"10,068",1.67%,"2,404,918",-7.90%
+2013,Ohio,Hopewell Culture NHP,"32,206",-18.39%,"2,404,918",-7.90%
+2013,Ohio,James A. Garfield NHS,"21,027",-42.19%,"2,404,918",-7.90%
+2013,Ohio,Perry's Victory & Intl. Peace MEM,"158,231",12.80%,"2,404,918",-7.90%
+2013,Ohio,William Howard Taft NHS,"21,102",8.68%,"2,404,918",-7.90%
+2013,Oklahoma,Chickasaw NRA,"1,099,669",-26.05%,"1,108,103",-26.01%
+2013,Oklahoma,Washita Battlefield NHS,"8,434",-20.55%,"1,108,103",-26.01%
+2013,Oregon,Crater Lake NP,"523,027",16.94%,"969,051",10.71%
+2013,Oregon,John Day Fossil Beds NM,"156,285",5.49%,"969,051",10.71%
+2013,Oregon,Lewis & Clark NHP,"217,022",7.59%,"969,051",10.71%
+2013,Oregon,Oregon Caves NM & PRES,"72,717",-6.97%,"969,051",10.71%
+2013,Pennsylvania,Allegheny Portage Railroad NHS,"107,977",-22.24%,"9,137,524",4.20%
+2013,Pennsylvania,Delaware Water Gap NRA,"1,404,572",-2.56%,"9,137,524",4.20%
+2013,Pennsylvania,Edgar Allan Poe NHS,"5,884",-69.20%,"9,137,524",4.20%
+2013,Pennsylvania,Eisenhower NHS,"59,179",11.06%,"9,137,524",4.20%
+2013,Pennsylvania,Flight 93 NMEM,"265,924",-16.36%,"9,137,524",4.20%
+2013,Pennsylvania,Fort Necessity NB,"165,159",-12.10%,"9,137,524",4.20%
+2013,Pennsylvania,Friendship Hill NHS,"34,372",0.24%,"9,137,524",4.20%
+2013,Pennsylvania,Gettysburg NMP,"1,213,349",7.70%,"9,137,524",4.20%
+2013,Pennsylvania,Hopewell Furnace NHS,"46,138",-12.73%,"9,137,524",4.20%
+2013,Pennsylvania,Independence NHP,"3,553,070",-1.15%,"9,137,524",4.20%
+2013,Pennsylvania,Johnstown Flood NMEM,"121,923",-0.94%,"9,137,524",4.20%
+2013,Pennsylvania,Steamtown NHS,"81,174",-23.64%,"9,137,524",4.20%
+2013,Pennsylvania,Thaddeus Kosciuszko NMEM,"1,682",-17.75%,"9,137,524",4.20%
+2013,Pennsylvania,Upper Delaware S&RR,"114,232",-10.61%,"9,137,524",4.20%
+2013,Pennsylvania,Valley Forge NHP,"1,962,889",36.05%,"9,137,524",4.20%
+2013,Puerto Rico,San Juan NHS,"1,328,802",3.83%,"1,328,802",3.83%
+2013,Rhode Island,Roger Williams NMEM,"48,677",-6.29%,"48,677",-6.29%
+2013,South Carolina,Charles Pinckney NHS,"47,309",6.76%,"1,516,151",-3.23%
+2013,South Carolina,Congaree NP,"120,340",9.71%,"1,516,151",-3.23%
+2013,South Carolina,Cowpens NB,"216,239",-6.78%,"1,516,151",-3.23%
+2013,South Carolina,Fort Sumter and Fort Moultrie NHP,"815,007",-3.21%,"1,516,151",-3.23%
+2013,South Carolina,Kings Mountain NMP,"247,632",-6.80%,"1,516,151",-3.23%
+2013,South Carolina,Ninety Six NHS,"69,624",-4.68%,"1,516,151",-3.23%
+2013,South Dakota,Badlands NP,"892,372",1.01%,"3,915,730",-0.88%
+2013,South Dakota,Jewel Cave NM,"98,259",-10.10%,"3,915,730",-0.88%
+2013,South Dakota,Minuteman Missile NHS,"76,261",0.80%,"3,915,730",-0.88%
+2013,South Dakota,Missouri NRR,"169,698",1.15%,"3,915,730",-0.88%
+2013,South Dakota,Mount Rushmore NMEM,"2,162,998",-1.03%,"3,915,730",-0.88%
+2013,South Dakota,Wind Cave NP,"516,142",-2.45%,"3,915,730",-0.88%
+2013,Tennessee,Andrew Johnson NHS,"42,929",-16.25%,"8,090,143",-3.85%
+2013,Tennessee,Big South Fork NRRA,"333,387",-5.85%,"8,090,143",-3.85%
+2013,Tennessee,Chickamauga & Chattanooga NMP,"452,992",-12.28%,"8,090,143",-3.85%
+2013,Tennessee,Fort Donelson NB,"247,734",-13.00%,"8,090,143",-3.85%
+2013,Tennessee,Great Smoky Mountains NP,"5,238,629",-3.42%,"8,090,143",-3.85%
+2013,Tennessee,Natchez Trace PKWY,"781,656",8.13%,"8,090,143",-3.85%
+2013,Tennessee,Obed W&SR,"198,367",-6.63%,"8,090,143",-3.85%
+2013,Tennessee,Shiloh NMP,"536,206",-8.75%,"8,090,143",-3.85%
+2013,Tennessee,Stones River NB,"258,242",-0.88%,"8,090,143",-3.85%
+2013,Texas,Alibates Flint Quarries NM,"1,555",-54.03%,"3,482,052",-11.60%
+2013,Texas,Amistad NRA,"1,025,151",-25.03%,"3,482,052",-11.60%
+2013,Texas,Big Bend NP,"316,953",8.53%,"3,482,052",-11.60%
+2013,Texas,Big Thicket NPRES,"120,108",-11.20%,"3,482,052",-11.60%
+2013,Texas,Chamizal NMEM,"121,937",17.08%,"3,482,052",-11.60%
+2013,Texas,Fort Davis NHS,"43,277",13.48%,"3,482,052",-11.60%
+2013,Texas,Guadalupe Mountains NP,"145,670",-8.59%,"3,482,052",-11.60%
+2013,Texas,Lake Meredith NRA,"554,272",10.31%,"3,482,052",-11.60%
+2013,Texas,Lyndon B. Johnson NHP,"82,369",-25.65%,"3,482,052",-11.60%
+2013,Texas,Padre Island NS,"515,830",-10.11%,"3,482,052",-11.60%
+2013,Texas,Palo Alto Battlefield NHP,"32,522",-11.40%,"3,482,052",-11.60%
+2013,Texas,Rio Grande W&SR,703,1.30%,"3,482,052",-11.60%
+2013,Texas,San Antonio Missions NHP,"521,705",-15.14%,"3,482,052",-11.60%
+2013,Utah,Arches NP,"1,082,866",1.15%,"8,981,447",-5.49%
+2013,Utah,Bryce Canyon NP,"1,311,875",-5.30%,"8,981,447",-5.49%
+2013,Utah,Canyonlands NP,"462,242",2.05%,"8,981,447",-5.49%
+2013,Utah,Capitol Reef NP,"663,670",-1.44%,"8,981,447",-5.49%
+2013,Utah,Cedar Breaks NM,"466,450",-26.17%,"8,981,447",-5.49%
+2013,Utah,Dinosaur NM,"71,334",-9.41%,"8,981,447",-5.49%
+2013,Utah,Glen Canyon NRA,"1,832,570",-3.37%,"8,981,447",-5.49%
+2013,Utah,Golden Spike NHP,"40,704",-4.34%,"8,981,447",-5.49%
+2013,Utah,Hovenweep NM,"13,977",-6.56%,"8,981,447",-5.49%
+2013,Utah,Natural Bridges NM,"82,330",-7.51%,"8,981,447",-5.49%
+2013,Utah,Rainbow Bridge NM,"54,773",-27.18%,"8,981,447",-5.49%
+2013,Utah,Timpanogos Cave NM,"91,269",-23.15%,"8,981,447",-5.49%
+2013,Utah,Zion NP,"2,807,387",-5.59%,"8,981,447",-5.49%
+2013,Vermont,Marsh-Billings-Rockefeller NHP,"34,112",5.27%,"34,112",5.27%
+2013,Virgin Islands,Buck Island Reef NM,"28,972",-4.81%,"591,002",-8.51%
+2013,Virgin Islands,Christiansted NHS,"118,638",-6.56%,"591,002",-8.51%
+2013,Virgin Islands,Salt River Bay NHP & Ecological Pres,"4,791",-8.17%,"591,002",-8.51%
+2013,Virgin Islands,Virgin Islands NP,"438,601",-9.26%,"591,002",-8.51%
+2013,Virginia,Appomattox Court House NHP,"317,660",-0.94%,"22,024,385",-5.87%
+2013,Virginia,Arlington House The R.E. Lee MEM,"586,531",4.22%,"22,024,385",-5.87%
+2013,Virginia,Assateague Island NS,"1,378,075",-4.55%,"22,024,385",-5.87%
+2013,Virginia,Blue Ridge PKWY,"4,893,400",-15.31%,"22,024,385",-5.87%
+2013,Virginia,Booker T. Washington NM,"22,103",-9.27%,"22,024,385",-5.87%
+2013,Virginia,Colonial NHP,"3,168,731",-3.22%,"22,024,385",-5.87%
+2013,Virginia,Cumberland Gap NHP,"53,785",-10.03%,"22,024,385",-5.87%
+2013,Virginia,Fredericksburg & Spotsylvania NMP,"880,251",-10.39%,"22,024,385",-5.87%
+2013,Virginia,George Washington Birthplace NM,"131,683",-2.33%,"22,024,385",-5.87%
+2013,Virginia,George Washington MEM PKWY,"7,360,392",-0.88%,"22,024,385",-5.87%
+2013,Virginia,LBJ Memorial Grove on the Potomac,"294,979",-20.50%,"22,024,385",-5.87%
+2013,Virginia,Maggie L. Walker NHS,"7,013",-15.26%,"22,024,385",-5.87%
+2013,Virginia,Manassas NBP,"538,888",-10.24%,"22,024,385",-5.87%
+2013,Virginia,Petersburg NB,"190,086",0.88%,"22,024,385",-5.87%
+2013,Virginia,Prince William Forest Park,"309,298",10.34%,"22,024,385",-5.87%
+2013,Virginia,Richmond NBP,"151,240",-3.64%,"22,024,385",-5.87%
+2013,Virginia,Shenandoah NP,"1,136,505",-6.09%,"22,024,385",-5.87%
+2013,Virginia,Theodore Roosevelt Island,"162,599",8.58%,"22,024,385",-5.87%
+2013,Virginia,Wolf Trap NP for the Performing Arts,"441,166",3.32%,"22,024,385",-5.87%
+2013,Washington,Fort Vancouver NHS,"733,540",7.65%,"7,347,284",-2.42%
+2013,Washington,Klondike Gold Rush NHP Seattle,"61,942",2.90%,"7,347,284",-2.42%
+2013,Washington,Lake Chelan NRA,"37,315",-8.61%,"7,347,284",-2.42%
+2013,Washington,Lake Roosevelt NRA,"1,254,409",-29.61%,"7,347,284",-2.42%
+2013,Washington,Mount Rainier NP,"1,148,552",9.47%,"7,347,284",-2.42%
+2013,Washington,North Cascades NP,"21,623",-19.72%,"7,347,284",-2.42%
+2013,Washington,Olympic NP,"3,085,340",9.22%,"7,347,284",-2.42%
+2013,Washington,Ross Lake NRA,"725,917",-2.19%,"7,347,284",-2.42%
+2013,Washington,San Juan Island NHP,"220,960",-15.39%,"7,347,284",-2.42%
+2013,Washington,Whitman Mission NHS,"57,686",-5.10%,"7,347,284",-2.42%
+2013,West Virginia,Bluestone NSR,"36,266",-1.56%,"1,499,112",-2.87%
+2013,West Virginia,Gauley River NRA,"135,309",17.37%,"1,499,112",-2.87%
+2013,West Virginia,Harpers Ferry NHP,"255,714",-2.81%,"1,499,112",-2.87%
+2013,West Virginia,New River Gorge NP & PRES,"1,071,823",-5.00%,"1,499,112",-2.87%
+2013,Wisconsin,Apostle Islands NL,"148,556",-9.10%,"320,027",16.83%
+2013,Wisconsin,Saint Croix NSR,"171,471",55.16%,"320,027",16.83%
+2013,Wyoming,Bighorn Canyon NRA,"111,102",-1.75%,"6,079,578",-1.86%
+2013,Wyoming,Devils Tower NM,"417,326",0.08%,"6,079,578",-1.86%
+2013,Wyoming,Fort Laramie NHS,"54,057",-2.07%,"6,079,578",-1.86%
+2013,Wyoming,Fossil Butte NM,"17,662",3.38%,"6,079,578",-1.86%
+2013,Wyoming,Grand Teton NP,"2,688,794",-0.61%,"6,079,578",-1.86%
+2013,Wyoming,"John D. Rockefeller, Jr. MEM PKWY","1,228,502",2.57%,"6,079,578",-1.86%
+2013,Wyoming,Yellowstone NP,"1,562,135",-7.53%,"6,079,578",-1.86%

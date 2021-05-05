@@ -1,0 +1,395 @@
+Year,State,Park,ParkVisitorCount,ParkPctChange,StateVisitorCount,StatePctChange
+2015,Alabama,Horseshoe Bend NMP,"89,282",38.72%,"792,477",5.22%
+2015,Alabama,Little River Canyon NPRES,"248,135",10.32%,"792,477",5.22%
+2015,Alabama,Natchez Trace PKWY,"405,007",-1.04%,"792,477",5.22%
+2015,Alabama,Russell Cave NM,"19,430",4.86%,"792,477",5.22%
+2015,Alabama,Tuskegee Airmen NHS,"22,662",-6.81%,"792,477",5.22%
+2015,Alabama,Tuskegee Institute NHS,"7,961",-32.45%,"792,477",5.22%
+2015,Alaska,Aniakchak NM & PRES,153,14.18%,"2,664,293",-0.76%
+2015,Alaska,Bering Land Bridge NPRES,"2,642",0.23%,"2,664,293",-0.76%
+2015,Alaska,Cape Krusenstern NM,0,,"2,664,293",-0.76%
+2015,Alaska,Denali NP & PRES,"560,757",5.54%,"2,664,293",-0.76%
+2015,Alaska,Gates of the Arctic NP & PRES,"10,745",-15.19%,"2,664,293",-0.76%
+2015,Alaska,Glacier Bay NP & PRES,"551,353",10.11%,"2,664,293",-0.76%
+2015,Alaska,Katmai NP & PRES,"37,818",22.40%,"2,664,293",-0.76%
+2015,Alaska,Kenai Fjords NP,"296,697",9.62%,"2,664,293",-0.76%
+2015,Alaska,Klondike Gold Rush NHP Alaska,"919,661",-15.25%,"2,664,293",-0.76%
+2015,Alaska,Kobuk Valley NP,0,,"2,664,293",-0.76%
+2015,Alaska,Lake Clark NP & PRES,"17,818",10.67%,"2,664,293",-0.76%
+2015,Alaska,Noatak NPRES,0,,"2,664,293",-0.76%
+2015,Alaska,Sitka NHP,"185,150",17.71%,"2,664,293",-0.76%
+2015,Alaska,Wrangell-St. Elias NP & PRES,"80,366",7.55%,"2,664,293",-0.76%
+2015,Alaska,Yukon-Charley Rivers NPRES,"1,133",-51.35%,"2,664,293",-0.76%
+2015,American Samoa,National Park of American Samoa,"13,892",-0.44%,"13,892",-0.44%
+2015,Arizona,Canyon de Chelly NM,"813,686",-1.70%,"11,729,985",9.14%
+2015,Arizona,Casa Grande Ruins NM,"72,606",13.98%,"11,729,985",9.14%
+2015,Arizona,Chiricahua NM,"56,960",26.23%,"11,729,985",9.14%
+2015,Arizona,Coronado NMEM,"132,584",11.57%,"11,729,985",9.14%
+2015,Arizona,Fort Bowie NHS,"7,760",11.43%,"11,729,985",9.14%
+2015,Arizona,Glen Canyon NRA,"199,607",5.35%,"11,729,985",9.14%
+2015,Arizona,Grand Canyon NP,"5,520,736",16.06%,"11,729,985",9.14%
+2015,Arizona,Hubbell Trading Post NHS,"66,324",-18.60%,"11,729,985",9.14%
+2015,Arizona,Lake Mead NRA,"1,824,616",5.12%,"11,729,985",9.14%
+2015,Arizona,Montezuma Castle NM,"416,635",2.36%,"11,729,985",9.14%
+2015,Arizona,Navajo NM,"71,370",8.50%,"11,729,985",9.14%
+2015,Arizona,Organ Pipe Cactus NM,"222,723",-0.81%,"11,729,985",9.14%
+2015,Arizona,Petrified Forest NP,"793,225",-5.21%,"11,729,985",9.14%
+2015,Arizona,Pipe Spring NM,"54,619",-3.30%,"11,729,985",9.14%
+2015,Arizona,Saguaro NP,"753,446",11.86%,"11,729,985",9.14%
+2015,Arizona,Sunset Crater Volcano NM,"182,203",3.10%,"11,729,985",9.14%
+2015,Arizona,Tonto NM,"37,523",3.20%,"11,729,985",9.14%
+2015,Arizona,Tumacacori NHP,"42,146",10.86%,"11,729,985",9.14%
+2015,Arizona,Tuzigoot NM,"95,065",26.92%,"11,729,985",9.14%
+2015,Arizona,Walnut Canyon NM,"153,322",13.38%,"11,729,985",9.14%
+2015,Arizona,Wupatki NM,"212,828",8.61%,"11,729,985",9.14%
+2015,Arkansas,Arkansas Post NMEM,"38,702",25.41%,"3,282,634",4.78%
+2015,Arkansas,Buffalo NR,"1,463,304",7.83%,"3,282,634",4.78%
+2015,Arkansas,Fort Smith NHS,"111,469",25.54%,"3,282,634",4.78%
+2015,Arkansas,Hot Springs NP,"1,418,162",-0.44%,"3,282,634",4.78%
+2015,Arkansas,Little Rock Central High School NHS,"125,956",8.67%,"3,282,634",4.78%
+2015,Arkansas,Pea Ridge NMP,"114,578",9.45%,"3,282,634",4.78%
+2015,Arkansas,President W.J. Clinton Birthplace Home NHS,"10,463",-5.85%,"3,282,634",4.78%
+2015,California,Cabrillo NM,"981,825",9.89%,"38,366,824",2.69%
+2015,California,Cesar E. Chavez NM,"10,648",20.26%,"38,366,824",2.69%
+2015,California,Channel Islands NP,"324,816",-5.07%,"38,366,824",2.69%
+2015,California,Death Valley NP,"1,154,843",4.86%,"38,366,824",2.69%
+2015,California,Devils Postpile NM,"140,313",22.64%,"38,366,824",2.69%
+2015,California,Eugene O'Neill NHS,"3,942",23.11%,"38,366,824",2.69%
+2015,California,Fort Point NHS,"1,610,466",-3.99%,"38,366,824",2.69%
+2015,California,Golden Gate NRA,"14,888,537",-0.77%,"38,366,824",2.69%
+2015,California,John Muir NHS,"42,615",2.60%,"38,366,824",2.69%
+2015,California,Joshua Tree NP,"2,025,756",27.41%,"38,366,824",2.69%
+2015,California,Kings Canyon NP,"468,106",-6.80%,"38,366,824",2.69%
+2015,California,Lassen Volcanic NP,"468,092",8.11%,"38,366,824",2.69%
+2015,California,Lava Beds NM,"108,687",-21.53%,"38,366,824",2.69%
+2015,California,Manzanar NHS,"95,327",22.79%,"38,366,824",2.69%
+2015,California,Mojave NPRES,"589,155",6.24%,"38,366,824",2.69%
+2015,California,Muir Woods NM,"1,099,923",4.81%,"38,366,824",2.69%
+2015,California,Pinnacles NP,"206,533",5.03%,"38,366,824",2.69%
+2015,California,Point Reyes NS,"2,501,106",2.76%,"38,366,824",2.69%
+2015,California,Port Chicago Naval Magazine NMEM,963,22.52%,"38,366,824",2.69%
+2015,California,Redwood NP,"527,143",22.83%,"38,366,824",2.69%
+2015,California,Rosie The Riveter WWII Home Front NHP,"56,362",23.74%,"38,366,824",2.69%
+2015,California,San Francisco Maritime NHP,"4,173,014",-1.97%,"38,366,824",2.69%
+2015,California,Santa Monica Mountains NRA,"797,126",14.74%,"38,366,824",2.69%
+2015,California,Sequoia NP,"1,097,464",5.61%,"38,366,824",2.69%
+2015,California,Whiskeytown NRA,"843,845",-0.95%,"38,366,824",2.69%
+2015,California,Yosemite NP,"4,150,217",6.89%,"38,366,824",2.69%
+2015,Colorado,Bent's Old Fort NHS,"26,219",6.78%,"7,077,287",17.33%
+2015,Colorado,Black Canyon of the Gunnison NP,"209,166",14.27%,"7,077,287",17.33%
+2015,Colorado,Colorado NM,"588,006",41.06%,"7,077,287",17.33%
+2015,Colorado,Curecanti NRA,"944,742",1.44%,"7,077,287",17.33%
+2015,Colorado,Dinosaur NM,"215,931",16.43%,"7,077,287",17.33%
+2015,Colorado,Florissant Fossil Beds NM,"69,130",9.22%,"7,077,287",17.33%
+2015,Colorado,Great Sand Dunes NP & PRES,"299,513",10.21%,"7,077,287",17.33%
+2015,Colorado,Hovenweep NM,"15,451",30.99%,"7,077,287",17.33%
+2015,Colorado,Mesa Verde NP,"547,325",9.12%,"7,077,287",17.33%
+2015,Colorado,Rocky Mountain NP,"4,155,916",21.00%,"7,077,287",17.33%
+2015,Colorado,Sand Creek Massacre NHS,"5,887",-20.47%,"7,077,287",17.33%
+2015,Connecticut,Weir Farm NHS,"47,220",38.55%,"47,220",38.55%
+2015,District of Columbia,Chesapeake & Ohio Canal NHP,"1,151,595",-5.29%,"41,801,278",10.88%
+2015,District of Columbia,Ford's Theatre NHS,"681,537",3.98%,"41,801,278",10.88%
+2015,District of Columbia,Franklin Delano Roosevelt MEM,"3,290,080",11.97%,"41,801,278",10.88%
+2015,District of Columbia,Frederick Douglass NHS,"53,873",18.42%,"41,801,278",10.88%
+2015,District of Columbia,Korean War Veterans Memorial,"4,077,835",8.24%,"41,801,278",10.88%
+2015,District of Columbia,Lincoln Memorial,"7,941,771",11.24%,"41,801,278",10.88%
+2015,District of Columbia,"Martin Luther King, Jr. Memorial","3,530,401",10.35%,"41,801,278",10.88%
+2015,District of Columbia,Mary McLeod Bethune Council House NHS,"8,249",-11.25%,"41,801,278",10.88%
+2015,District of Columbia,National Capital Parks Central,"1,833,085",-8.31%,"41,801,278",10.88%
+2015,District of Columbia,National Capital Parks East,"1,098,363",-6.98%,"41,801,278",10.88%
+2015,District of Columbia,Pennsylvania Avenue NHS,0,-100.00%,"41,801,278",10.88%
+2015,District of Columbia,President's Park,"903,161",24.76%,"41,801,278",10.88%
+2015,District of Columbia,Rock Creek Park,"2,443,772",0.24%,"41,801,278",10.88%
+2015,District of Columbia,Thomas Jefferson MEM,"3,102,442",14.54%,"41,801,278",10.88%
+2015,District of Columbia,Vietnam Veterans MEM,"5,597,077",27.11%,"41,801,278",10.88%
+2015,District of Columbia,Washington Monument,"493,550",16.63%,"41,801,278",10.88%
+2015,District of Columbia,White House,"526,263",-7.57%,"41,801,278",10.88%
+2015,District of Columbia,World War II Memorial,"5,068,224",19.79%,"41,801,278",10.88%
+2015,Florida,Big Cypress NPRES,"1,112,290",-6.75%,"10,639,976",-0.26%
+2015,Florida,Biscayne NP,"508,164",-3.34%,"10,639,976",-0.26%
+2015,Florida,Canaveral NS,"1,689,754",16.44%,"10,639,976",-0.26%
+2015,Florida,Castillo de San Marcos NM,"819,154",7.68%,"10,639,976",-0.26%
+2015,Florida,De Soto NMEM,"293,647",-14.15%,"10,639,976",-0.26%
+2015,Florida,Dry Tortugas NP,"70,862",9.25%,"10,639,976",-0.26%
+2015,Florida,Everglades NP,"1,077,427",-3.01%,"10,639,976",-0.26%
+2015,Florida,Fort Caroline NMEM,"224,418",19.47%,"10,639,976",-0.26%
+2015,Florida,Fort Matanzas NM,"622,175",9.44%,"10,639,976",-0.26%
+2015,Florida,Gulf Islands NS,"2,982,662",-10.74%,"10,639,976",-0.26%
+2015,Florida,Timucuan EHP,"1,239,423",10.53%,"10,639,976",-0.26%
+2015,Georgia,Andersonville NHS,"136,686",7.47%,"7,527,855",0.49%
+2015,Georgia,Chattahoochee River NRA,"3,173,204",1.73%,"7,527,855",0.49%
+2015,Georgia,Chickamauga & Chattanooga NMP,"501,187",0.57%,"7,527,855",0.49%
+2015,Georgia,Cumberland Island NS,"59,859",-2.51%,"7,527,855",0.49%
+2015,Georgia,Fort Frederica NM,"202,191",-11.36%,"7,527,855",0.49%
+2015,Georgia,Fort Pulaski NM,"382,945",-1.05%,"7,527,855",0.49%
+2015,Georgia,Jimmy Carter NHS,"67,797",9.25%,"7,527,855",0.49%
+2015,Georgia,Kennesaw Mountain NBP,"2,174,870",2.64%,"7,527,855",0.49%
+2015,Georgia,"Martin Luther King, Jr. NHP","673,728",-12.05%,"7,527,855",0.49%
+2015,Georgia,Ocmulgee Mounds NHP,"155,388",26.54%,"7,527,855",0.49%
+2015,Guam,War in the Pacific NHP,"322,463",21.14%,"322,463",21.14%
+2015,Hawaii,Haleakala NP,"1,216,772",6.54%,"5,439,034",4.32%
+2015,Hawaii,Hawaii Volcanoes NP,"1,832,660",8.25%,"5,439,034",4.32%
+2015,Hawaii,Kalaupapa NHP,"67,891",1.01%,"5,439,034",4.32%
+2015,Hawaii,Kaloko Honokohau NHP,"170,683",10.69%,"5,439,034",4.32%
+2015,Hawaii,Pearl Harbor NMEM,"1,574,156",-2.88%,"5,439,034",4.32%
+2015,Hawaii,Pu'uhonua o Honaunau NHP,"437,286",8.83%,"5,439,034",4.32%
+2015,Hawaii,Pu'ukohola Heiau NHS,"139,586",3.60%,"5,439,034",4.32%
+2015,Idaho,City of Rocks NRES,"105,289",11.04%,"601,777",8.68%
+2015,Idaho,Craters of the Moon NM & PRES,"246,826",14.81%,"601,777",8.68%
+2015,Idaho,Hagerman Fossil Beds NM,"24,695",9.84%,"601,777",8.68%
+2015,Idaho,Nez Perce NHP,"224,967",1.59%,"601,777",8.68%
+2015,Illinois,Lincoln Home NHS,"233,299",6.95%,"233,299",6.95%
+2015,Indiana,George Rogers Clark NHP,"135,856",8.50%,"1,887,762",6.15%
+2015,Indiana,Indiana Dunes NP,"1,640,195",5.59%,"1,887,762",6.15%
+2015,Indiana,Lincoln Boyhood NMEM,"111,711",11.94%,"1,887,762",6.15%
+2015,Iowa,Effigy Mounds NM,"81,901",5.25%,"209,055",-3.62%
+2015,Iowa,Herbert Hoover NHS,"127,154",-8.58%,"209,055",-3.62%
+2015,Kansas,Brown v. Board of Education NHS,"25,338",-5.69%,"115,903",17.56%
+2015,Kansas,Fort Larned NHS,"32,170",30.74%,"115,903",17.56%
+2015,Kansas,Fort Scott NHS,"25,531",-1.68%,"115,903",17.56%
+2015,Kansas,Nicodemus NHS,"3,306",-2.02%,"115,903",17.56%
+2015,Kansas,Tallgrass Prairie NPRES,"29,558",66.28%,"115,903",17.56%
+2015,Kentucky,Abraham Lincoln Birthplace NHP,"148,605",-38.41%,"1,760,944",-3.68%
+2015,Kentucky,Big South Fork NRRA,"263,685",7.21%,"1,760,944",-3.68%
+2015,Kentucky,Cumberland Gap NHP,"781,759",-4.47%,"1,760,944",-3.68%
+2015,Kentucky,Mammoth Cave NP,"566,895",8.47%,"1,760,944",-3.68%
+2015,Louisiana,Cane River Creole NHP,"30,882",6.56%,"494,688",-3.10%
+2015,Louisiana,Jean Lafitte NHP & PRES,"405,618",-8.96%,"494,688",-3.10%
+2015,Louisiana,New Orleans Jazz NHP,"58,188",61.56%,"494,688",-3.10%
+2015,Maine,Acadia NP,"2,811,184",9.68%,"2,823,741",9.67%
+2015,Maine,Saint Croix Island IHS,"12,557",8.36%,"2,823,741",9.67%
+2015,Maryland,Antietam NB,"347,180",3.00%,"6,443,376",-5.46%
+2015,Maryland,Assateague Island NS,"750,950",4.83%,"6,443,376",-5.46%
+2015,Maryland,Catoctin Mountain Park,"229,301",21.86%,"6,443,376",-5.46%
+2015,Maryland,Chesapeake & Ohio Canal NHP,"3,646,717",-5.29%,"6,443,376",-5.46%
+2015,Maryland,Clara Barton NHS,"2,823",-85.90%,"6,443,376",-5.46%
+2015,Maryland,Fort McHenry NM & HS,"617,890",-19.68%,"6,443,376",-5.46%
+2015,Maryland,Fort Washington Park,"337,433",-27.60%,"6,443,376",-5.46%
+2015,Maryland,Greenbelt Park,"135,260",1.94%,"6,443,376",-5.46%
+2015,Maryland,Hampton NHS,"34,685",6.73%,"6,443,376",-5.46%
+2015,Maryland,Monocacy NB,"64,596",14.97%,"6,443,376",-5.46%
+2015,Maryland,National Capital Parks East,"122,040",-6.98%,"6,443,376",-5.46%
+2015,Maryland,Piscataway Park,"148,729",35.86%,"6,443,376",-5.46%
+2015,Maryland,Thomas Stone NHS,"5,772",-1.22%,"6,443,376",-5.46%
+2015,Massachusetts,Adams NHP,"183,632",2.89%,"9,399,919",-4.58%
+2015,Massachusetts,Boston African American NHS,"412,377",0.91%,"9,399,919",-4.58%
+2015,Massachusetts,Boston NHP,"2,262,841",-8.61%,"9,399,919",-4.58%
+2015,Massachusetts,Cape Cod NS,"4,503,220",1.73%,"9,399,919",-4.58%
+2015,Massachusetts,Frederick Law Olmsted NHS,"9,473",9.30%,"9,399,919",-4.58%
+2015,Massachusetts,John F. Kennedy NHS,"18,485",-29.64%,"9,399,919",-4.58%
+2015,Massachusetts,Longfellow House Washington's HQ NHS,"50,784",9.52%,"9,399,919",-4.58%
+2015,Massachusetts,Lowell NHP,"531,055",3.21%,"9,399,919",-4.58%
+2015,Massachusetts,Minute Man NHP,"964,330",-8.73%,"9,399,919",-4.58%
+2015,Massachusetts,New Bedford Whaling NHP,"167,790",-38.48%,"9,399,919",-4.58%
+2015,Massachusetts,Salem Maritime NHS,"264,780",-34.42%,"9,399,919",-4.58%
+2015,Massachusetts,Saugus Iron Works NHS,"9,327",-16.58%,"9,399,919",-4.58%
+2015,Massachusetts,Springfield Armory NHS,"21,825",5.97%,"9,399,919",-4.58%
+2015,Michigan,Isle Royale NP,"18,684",28.32%,"2,386,613",19.74%
+2015,Michigan,Pictured Rocks NL,"723,178",36.99%,"2,386,613",19.74%
+2015,Michigan,River Raisin NBP,"109,118",97.39%,"2,386,613",19.74%
+2015,Michigan,Sleeping Bear Dunes NL,"1,535,633",10.05%,"2,386,613",19.74%
+2015,Minnesota,Grand Portage NM,"91,751",3.23%,"840,008",3.50%
+2015,Minnesota,Mississippi NRRA,"127,635",49.04%,"840,008",3.50%
+2015,Minnesota,Pipestone NM,"70,748",13.83%,"840,008",3.50%
+2015,Minnesota,Saint Croix NSR,"311,561",-7.22%,"840,008",3.50%
+2015,Minnesota,Voyageurs NP,"238,313",-0.35%,"840,008",3.50%
+2015,Mississippi,Gulf Islands NS,"994,221",-10.74%,"6,359,646",-3.01%
+2015,Mississippi,Natchez NHP,"204,332",-5.08%,"6,359,646",-3.01%
+2015,Mississippi,Natchez Trace PKWY,"4,628,650",-1.04%,"6,359,646",-3.01%
+2015,Mississippi,Vicksburg NMP,"532,444",-3.35%,"6,359,646",-3.01%
+2015,Missouri,Gateway Arch NP,"1,698,656",-6.52%,"3,247,219",-4.09%
+2015,Missouri,George Washington Carver NM,"37,745",-9.12%,"3,247,219",-4.09%
+2015,Missouri,Harry S Truman NHS,"32,825",11.79%,"3,247,219",-4.09%
+2015,Missouri,Ozark NSR,"1,277,941",-1.43%,"3,247,219",-4.09%
+2015,Missouri,Ulysses S. Grant NHS,"39,048",-3.08%,"3,247,219",-4.09%
+2015,Missouri,Wilson's Creek NB,"161,004",-0.03%,"3,247,219",-4.09%
+2015,Montana,Big Hole NB,"39,549",6.93%,"4,967,752",8.22%
+2015,Montana,Bighorn Canyon NRA,"132,393",9.41%,"4,967,752",8.22%
+2015,Montana,Glacier NP,"2,366,056",1.18%,"4,967,752",8.22%
+2015,Montana,Grant-Kohrs Ranch NHS,"22,139",7.65%,"4,967,752",8.22%
+2015,Montana,Little Bighorn Battlefield NM,"317,782",12.91%,"4,967,752",8.22%
+2015,Montana,Yellowstone NP,"2,089,832",16.63%,"4,967,752",8.22%
+2015,Nebraska,Agate Fossil Beds NM,"13,264",6.62%,"291,235",14.57%
+2015,Nebraska,Homestead NM of America,"78,739",13.86%,"291,235",14.57%
+2015,Nebraska,Niobrara NSR,"68,110",27.44%,"291,235",14.57%
+2015,Nebraska,Scotts Bluff NM,"131,122",10.04%,"291,235",14.57%
+2015,Nevada,Death Valley NP,,,"5,589,972",5.18%
+2015,Nevada,Great Basin NP,"116,123",8.00%,"5,589,972",5.18%
+2015,Nevada,Lake Mead NRA,"5,473,849",5.12%,"5,589,972",5.18%
+2015,New Hampshire,Saint-Gaudens NHP,"39,242",3.86%,"39,242",3.86%
+2015,New Jersey,Delaware Water Gap NRA,"2,651,945",-7.58%,"4,205,734",-4.19%
+2015,New Jersey,Gateway NRA,"1,278,513",6.16%,"4,205,734",-4.19%
+2015,New Jersey,Morristown NHP,"218,959",-17.17%,"4,205,734",-4.19%
+2015,New Jersey,Thomas Edison NHP,"56,317",9.69%,"4,205,734",-4.19%
+2015,New Mexico,Aztec Ruins NM,"53,165",18.88%,"1,714,677",7.03%
+2015,New Mexico,Bandelier NM,"174,073",33.79%,"1,714,677",7.03%
+2015,New Mexico,Capulin Volcano NM,"55,506",9.07%,"1,714,677",7.03%
+2015,New Mexico,Carlsbad Caverns NP,"445,720",12.18%,"1,714,677",7.03%
+2015,New Mexico,Chaco Culture NHP,"38,914",1.38%,"1,714,677",7.03%
+2015,New Mexico,El Malpais NM,"174,433",6.32%,"1,714,677",7.03%
+2015,New Mexico,El Morro NM,"49,390",6.78%,"1,714,677",7.03%
+2015,New Mexico,Fort Union NM,"11,726",7.24%,"1,714,677",7.03%
+2015,New Mexico,Gila Cliff Dwellings NM,"36,518",17.29%,"1,714,677",7.03%
+2015,New Mexico,Pecos NHP,"30,229",-20.98%,"1,714,677",7.03%
+2015,New Mexico,Petroglyph NM,"117,825",1.70%,"1,714,677",7.03%
+2015,New Mexico,Salinas Pueblo Missions NM,"29,672",-2.83%,"1,714,677",7.03%
+2015,New Mexico,White Sands NP,"497,506",-1.22%,"1,714,677",7.03%
+2015,New York,African Burial Ground NM,"56,348",2.71%,"16,328,212",1.16%
+2015,New York,Castle Clinton NM,"4,597,029",-2.75%,"16,328,212",1.16%
+2015,New York,Eleanor Roosevelt NHS,"64,791",7.17%,"16,328,212",1.16%
+2015,New York,Federal Hall NMEM,"172,038",25.08%,"16,328,212",1.16%
+2015,New York,Fire Island NS,"441,899",14.98%,"16,328,212",1.16%
+2015,New York,Fort Stanwix NM,"86,678",42.52%,"16,328,212",1.16%
+2015,New York,Gateway NRA,"5,114,052",6.16%,"16,328,212",1.16%
+2015,New York,General Grant NMEM,"95,526",-5.06%,"16,328,212",1.16%
+2015,New York,Governors Island NM,"438,613",-37.18%,"16,328,212",1.16%
+2015,New York,Hamilton Grange NMEM,"35,446",69.25%,"16,328,212",1.16%
+2015,New York,Home of Franklin D. Roosevelt NHS,"180,405",0.59%,"16,328,212",1.16%
+2015,New York,Martin Van Buren NHS,"18,547",-3.34%,"16,328,212",1.16%
+2015,New York,Sagamore Hill NHS,"42,326",119.09%,"16,328,212",1.16%
+2015,New York,Saint Paul's Church NHS,"17,180",4.37%,"16,328,212",1.16%
+2015,New York,Saratoga NHP,"65,010",10.61%,"16,328,212",1.16%
+2015,New York,Statue of Liberty NM,"4,279,020",1.91%,"16,328,212",1.16%
+2015,New York,Theodore Roosevelt Birthplace NHS,"6,685",-68.26%,"16,328,212",1.16%
+2015,New York,Theodore Roosevelt Inaugural NHS,"24,896",13.04%,"16,328,212",1.16%
+2015,New York,Upper Delaware S&RR,"121,623",5.37%,"16,328,212",1.16%
+2015,New York,Vanderbilt Mansion NHS,"431,961",8.41%,"16,328,212",1.16%
+2015,New York,Women's Rights NHP,"38,139",26.06%,"16,328,212",1.16%
+2015,North Carolina,Blue Ridge PKWY,"9,333,854",7.98%,"17,834,699",6.73%
+2015,North Carolina,Cape Hatteras NS,"2,274,635",5.63%,"17,834,699",6.73%
+2015,North Carolina,Cape Lookout NS,"400,413",-7.08%,"17,834,699",6.73%
+2015,North Carolina,Carl Sandburg Home NHS,"72,606",-11.86%,"17,834,699",6.73%
+2015,North Carolina,Fort Raleigh NHS,"289,885",9.40%,"17,834,699",6.73%
+2015,North Carolina,Great Smoky Mountains NP,"4,713,577",6.07%,"17,834,699",6.73%
+2015,North Carolina,Guilford Courthouse NMP,"222,602",28.48%,"17,834,699",6.73%
+2015,North Carolina,Moores Creek NB,"89,944",2.47%,"17,834,699",6.73%
+2015,North Carolina,Wright Brothers NMEM,"437,184",1.55%,"17,834,699",6.73%
+2015,North Dakota,Fort Union Trading Post NHS,"13,605",18.09%,"605,015",3.98%
+2015,North Dakota,Knife River Indian Villages NHS,"11,377",5.83%,"605,015",3.98%
+2015,North Dakota,Theodore Roosevelt NP,"580,033",3.66%,"605,015",3.98%
+2015,Ohio,Charles Young Buffalo Soldiers NM,"3,993",,"2,624,146",6.23%
+2015,Ohio,Cuyahoga Valley NP,"2,284,612",4.33%,"2,624,146",6.23%
+2015,Ohio,Dayton Aviation Heritage NHP,"73,588",27.83%,"2,624,146",6.23%
+2015,Ohio,First Ladies NHS,"12,897",-15.85%,"2,624,146",6.23%
+2015,Ohio,Hopewell Culture NHP,"43,587",19.64%,"2,624,146",6.23%
+2015,Ohio,James A. Garfield NHS,"24,506",36.48%,"2,624,146",6.23%
+2015,Ohio,Perry's Victory & Intl. Peace MEM,"156,578",20.97%,"2,624,146",6.23%
+2015,Ohio,William Howard Taft NHS,"24,385",3.29%,"2,624,146",6.23%
+2015,Oklahoma,Chickasaw NRA,"1,254,105",8.86%,"1,266,172",8.66%
+2015,Oklahoma,Washita Battlefield NHS,"12,067",-8.49%,"1,266,172",8.66%
+2015,Oregon,Crater Lake NP,"614,712",14.79%,"1,154,108",11.70%
+2015,Oregon,John Day Fossil Beds NM,"196,277",7.01%,"1,154,108",11.70%
+2015,Oregon,Lewis & Clark NHP,"270,410",10.41%,"1,154,108",11.70%
+2015,Oregon,Oregon Caves NM & PRES,"72,709",4.76%,"1,154,108",11.70%
+2015,Pennsylvania,Allegheny Portage Railroad NHS,"168,433",-2.57%,"9,935,361",10.33%
+2015,Pennsylvania,Delaware Water Gap NRA,"1,083,189",-7.58%,"9,935,361",10.33%
+2015,Pennsylvania,Edgar Allan Poe NHS,"13,862",1.18%,"9,935,361",10.33%
+2015,Pennsylvania,Eisenhower NHS,"54,377",-6.63%,"9,935,361",10.33%
+2015,Pennsylvania,Flight 93 NMEM,"337,217",18.64%,"9,935,361",10.33%
+2015,Pennsylvania,Fort Necessity NB,"280,705",27.86%,"9,935,361",10.33%
+2015,Pennsylvania,Friendship Hill NHS,"34,687",1.08%,"9,935,361",10.33%
+2015,Pennsylvania,Gettysburg NMP,"1,080,185",5.83%,"9,935,361",10.33%
+2015,Pennsylvania,Hopewell Furnace NHS,"51,252",6.54%,"9,935,361",10.33%
+2015,Pennsylvania,Independence NHP,"4,311,582",18.19%,"9,935,361",10.33%
+2015,Pennsylvania,Johnstown Flood NMEM,"163,431",15.62%,"9,935,361",10.33%
+2015,Pennsylvania,Steamtown NHS,"89,592",6.33%,"9,935,361",10.33%
+2015,Pennsylvania,Thaddeus Kosciuszko NMEM,"1,261",-14.51%,"9,935,361",10.33%
+2015,Pennsylvania,Upper Delaware S&RR,"121,623",5.37%,"9,935,361",10.33%
+2015,Pennsylvania,Valley Forge NHP,"2,143,965",7.69%,"9,935,361",10.33%
+2015,Puerto Rico,San Juan NHS,"1,532,818",10.84%,"1,532,818",10.84%
+2015,Rhode Island,Roger Williams NMEM,"60,505",17.43%,"60,505",17.43%
+2015,South Carolina,Charles Pinckney NHS,"46,995",-12.14%,"1,519,259",-0.03%
+2015,South Carolina,Congaree NP,"87,513",-27.15%,"1,519,259",-0.03%
+2015,South Carolina,Cowpens NB,"206,740",2.94%,"1,519,259",-0.03%
+2015,South Carolina,Fort Sumter and Fort Moultrie NHP,"840,711",1.47%,"1,519,259",-0.03%
+2015,South Carolina,Kings Mountain NMP,"257,077",2.38%,"1,519,259",-0.03%
+2015,South Carolina,Ninety Six NHS,"80,223",22.13%,"1,519,259",-0.03%
+2015,South Dakota,Badlands NP,"989,354",13.97%,"4,397,785",13.90%
+2015,South Dakota,Jewel Cave NM,"116,444",11.59%,"4,397,785",13.90%
+2015,South Dakota,Minuteman Missile NHS,"100,488",61.93%,"4,397,785",13.90%
+2015,South Dakota,Missouri NRR,"145,004",7.60%,"4,397,785",13.90%
+2015,South Dakota,Mount Rushmore NMEM,"2,434,297",13.50%,"4,397,785",13.90%
+2015,South Dakota,Wind Cave NP,"612,198",11.91%,"4,397,785",13.90%
+2015,Tennessee,Andrew Johnson NHS,"45,357",5.82%,"8,773,891",3.58%
+2015,Tennessee,Big South Fork NRRA,"379,450",7.21%,"8,773,891",3.58%
+2015,Tennessee,Chickamauga & Chattanooga NMP,"501,187",0.57%,"8,773,891",3.58%
+2015,Tennessee,Fort Donelson NB,"260,744",-0.60%,"8,773,891",3.58%
+2015,Tennessee,Great Smoky Mountains NP,"5,999,097",6.07%,"8,773,891",3.58%
+2015,Tennessee,Natchez Trace PKWY,"752,156",-1.04%,"8,773,891",3.58%
+2015,Tennessee,Obed W&SR,"214,441",-0.61%,"8,773,891",3.58%
+2015,Tennessee,Shiloh NMP,"356,535",-12.85%,"8,773,891",3.58%
+2015,Tennessee,Stones River NB,"264,925",-2.78%,"8,773,891",3.58%
+2015,Texas,Alibates Flint Quarries NM,"9,492",110.33%,"5,044,926",7.79%
+2015,Texas,Amistad NRA,"1,250,051",10.61%,"5,044,926",7.79%
+2015,Texas,Big Bend NP,"381,747",21.54%,"5,044,926",7.79%
+2015,Texas,Big Thicket NPRES,"125,832",14.44%,"5,044,926",7.79%
+2015,Texas,Chamizal NMEM,"122,431",12.94%,"5,044,926",7.79%
+2015,Texas,Fort Davis NHS,"55,955",12.26%,"5,044,926",7.79%
+2015,Texas,Guadalupe Mountains NP,"169,535",1.60%,"5,044,926",7.79%
+2015,Texas,Lake Meredith NRA,"831,374",20.11%,"5,044,926",7.79%
+2015,Texas,Lyndon B. Johnson NHP,"124,979",41.34%,"5,044,926",7.79%
+2015,Texas,Padre Island NS,"582,839",0.70%,"5,044,926",7.79%
+2015,Texas,Palo Alto Battlefield NHP,"47,866",15.30%,"5,044,926",7.79%
+2015,Texas,Rio Grande W&SR,120,-62.62%,"5,044,926",7.79%
+2015,Texas,San Antonio Missions NHP,"1,322,154",-5.24%,"5,044,926",7.79%
+2015,Texas,Waco Mammoth NM,"20,551",,"5,044,926",7.79%
+2015,Utah,Arches NP,"1,399,247",8.91%,"11,889,390",12.68%
+2015,Utah,Bryce Canyon NP,"1,745,804",21.60%,"11,889,390",12.68%
+2015,Utah,Canyonlands NP,"634,607",16.99%,"11,889,390",12.68%
+2015,Utah,Capitol Reef NP,"941,029",19.65%,"11,889,390",12.68%
+2015,Utah,Cedar Breaks NM,"793,601",4.02%,"11,889,390",12.68%
+2015,Utah,Dinosaur NM,"75,868",16.43%,"11,889,390",12.68%
+2015,Utah,Glen Canyon NRA,"2,295,486",5.35%,"11,889,390",12.68%
+2015,Utah,Golden Spike NHP,"59,147",34.04%,"11,889,390",12.68%
+2015,Utah,Hovenweep NM,"19,666",30.99%,"11,889,390",12.68%
+2015,Utah,Natural Bridges NM,"94,797",8.81%,"11,889,390",12.68%
+2015,Utah,Rainbow Bridge NM,"77,270",22.83%,"11,889,390",12.68%
+2015,Utah,Timpanogos Cave NM,"104,023",8.72%,"11,889,390",12.68%
+2015,Utah,Zion NP,"3,648,846",14.39%,"11,889,390",12.68%
+2015,Vermont,Marsh-Billings-Rockefeller NHP,"35,003",-10.45%,"35,003",-10.45%
+2015,Virgin Islands,Buck Island Reef NM,"41,936",21.91%,"605,233",5.13%
+2015,Virgin Islands,Christiansted NHS,"116,817",7.02%,"605,233",5.13%
+2015,Virgin Islands,Salt River Bay NHP & Ecological Pres,"8,108",56.16%,"605,233",5.13%
+2015,Virgin Islands,Virgin Islands NP,"438,372",2.68%,"605,233",5.13%
+2015,Virginia,Appomattox Court House NHP,"412,640",48.02%,"23,249,802",1.66%
+2015,Virginia,Arlington House The R.E. Lee MEM,"532,050",-20.78%,"23,249,802",1.66%
+2015,Virginia,Assateague Island NS,"1,524,656",4.83%,"23,249,802",1.66%
+2015,Virginia,Blue Ridge PKWY,"5,720,749",7.98%,"23,249,802",1.66%
+2015,Virginia,Booker T. Washington NM,"27,205",4.13%,"23,249,802",1.66%
+2015,Virginia,Colonial NHP,"3,343,909",0.27%,"23,249,802",1.66%
+2015,Virginia,Cumberland Gap NHP,"58,842",-4.47%,"23,249,802",1.66%
+2015,Virginia,Fredericksburg & Spotsylvania NMP,"891,917",2.13%,"23,249,802",1.66%
+2015,Virginia,George Washington Birthplace NM,"130,952",-0.78%,"23,249,802",1.66%
+2015,Virginia,George Washington MEM PKWY,"7,286,463",-2.49%,"23,249,802",1.66%
+2015,Virginia,LBJ Memorial Grove on the Potomac,"232,882",-8.37%,"23,249,802",1.66%
+2015,Virginia,Maggie L. Walker NHS,"7,589",-16.10%,"23,249,802",1.66%
+2015,Virginia,Manassas NBP,"502,045",-2.35%,"23,249,802",1.66%
+2015,Virginia,Petersburg NB,"192,655",-6.28%,"23,249,802",1.66%
+2015,Virginia,Prince William Forest Park,"312,109",-0.94%,"23,249,802",1.66%
+2015,Virginia,Richmond NBP,"184,175",2.57%,"23,249,802",1.66%
+2015,Virginia,Shenandoah NP,"1,321,873",5.30%,"23,249,802",1.66%
+2015,Virginia,Theodore Roosevelt Island,"159,740",9.04%,"23,249,802",1.66%
+2015,Virginia,Wolf Trap NP for the Performing Arts,"407,351",4.91%,"23,249,802",1.66%
+2015,Washington,Fort Vancouver NHS,"818,672",1.86%,"7,674,514",0.29%
+2015,Washington,Klondike Gold Rush NHP Seattle,"60,372",-2.66%,"7,674,514",0.29%
+2015,Washington,Lake Chelan NRA,"32,186",-8.98%,"7,674,514",0.29%
+2015,Washington,Lake Roosevelt NRA,"1,170,843",-0.85%,"7,674,514",0.29%
+2015,Washington,Mount Rainier NP,"1,237,231",-2.14%,"7,674,514",0.29%
+2015,Washington,North Cascades NP,"20,677",-13.36%,"7,674,514",0.29%
+2015,Washington,Olympic NP,"3,263,761",0.61%,"7,674,514",0.29%
+2015,Washington,Ross Lake NRA,"772,579",8.72%,"7,674,514",0.29%
+2015,Washington,San Juan Island NHP,"258,668",-3.82%,"7,674,514",0.29%
+2015,Washington,Whitman Mission NHS,"39,525",-32.43%,"7,674,514",0.29%
+2015,West Virginia,Bluestone NSR,"36,733",-4.47%,"1,603,753",4.02%
+2015,West Virginia,Gauley River NRA,"105,374",-10.21%,"1,603,753",4.02%
+2015,West Virginia,Harpers Ferry NHP,"282,893",8.30%,"1,603,753",4.02%
+2015,West Virginia,New River Gorge NP & PRES,"1,178,753",4.80%,"1,603,753",4.02%
+2015,Wisconsin,Apostle Islands NL,"232,662",-19.79%,"544,223",-13.04%
+2015,Wisconsin,Saint Croix NSR,"311,561",-7.22%,"544,223",-13.04%
+2015,Wyoming,Bighorn Canyon NRA,"112,780",9.41%,"7,250,657",13.51%
+2015,Wyoming,Devils Tower NM,"478,833",8.61%,"7,250,657",13.51%
+2015,Wyoming,Fort Laramie NHS,"51,616",5.26%,"7,250,657",13.51%
+2015,Wyoming,Fossil Butte NM,"19,293",16.06%,"7,250,657",13.51%
+2015,Wyoming,Grand Teton NP,"3,149,921",12.84%,"7,250,657",13.51%
+2015,Wyoming,"John D. Rockefeller, Jr. MEM PKWY","1,430,337",13.08%,"7,250,657",13.51%
+2015,Wyoming,Yellowstone NP,"2,007,878",16.63%,"7,250,657",13.51%
