@@ -1,7 +1,7 @@
-* {
+/* * {
   box-sizing: border-box;
   font-family: Ubuntu, sans-serif;
-}
+} */
 
 html,
 body {
@@ -21,12 +21,15 @@ body {
   border-radius: 5px;
 }
 
-#chloropleth {
+#choropleth {
+  position: relative;
   background: #0A9396;
   color: #001219;
   border-style: solid;
   border-color: #e9d8a6;
   border-width: 5px;
+  height: 50vh;
+  width: 100%;
 }
 
 #state {
