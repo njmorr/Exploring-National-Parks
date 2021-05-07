@@ -15,14 +15,40 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: API_KEY
 }).addTo(myMap);
 
+
 // load in geojson data
-// var geoData = "../../data/gz_2010_us_040_00_5m.json";
-// var geojson;
+var geoData = "../../data/gz_2010_us_040_00_5m.json";
+var geojson;
+L.geoJson(geoData).addTo(myMap);
 
-// d3.json(geoData).then(function(data) {
-    
-//     geojson = L.chloropleth(geoData).addTo(myMap);
 
-//     console.log("we got here... ");
-// })
+d3.json(geoData).then(function (data, err) {
+    if (err) throw err;
+
+    console.log(data);
+    geojson = L.choropleth(data, {
+        //valueProperty: "",
+
+        // Set color scale
+        scale: ["#ffffb2", "#b10026"],
+
+        // Number of breaks in step range
+        steps: 10,
+
+        // q for quartile, e for equidistant, k for k-means
+        mode: "q",
+        style: {
+            // Border color
+            color: "#fff",
+            weight: 1,
+            fillOpacity: 0.8
+        }
+
+    }).addTo(myMap);
+
+
+    console.log("we got here... ");
+}).catch(function (error) {
+    console.log(error);
+});
 
