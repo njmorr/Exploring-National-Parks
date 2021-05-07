@@ -1,5 +1,7 @@
-*config.py
-*config.js
+config.js
+config.py
+config2.py
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
