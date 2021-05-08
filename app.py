@@ -43,25 +43,28 @@ def index():
 @app.route("/data")
 def data():
     session = Session(engine)
-    results = session.query(state_parks_table.PK, 
-        state_parks_table.State, 
-        state_parks_table.Park, 
-        state_parks_table.ParkVisitorCount_2016, 
-        state_parks_table.ParkPctChange_2016,
-        state_parks_table.StateVisitorCount_2016,
-        state_parks_table.StatePctChange_2016,
-        state_parks_table.ParkVisitorCount_2015, 
-        state_parks_table.ParkPctChange_2015,
-        state_parks_table.StateVisitorCount_2015,  
-        state_parks_table.StatePctChange_2015,      
-        state_parks_table.ParkVisitorCount_2014, 
-        state_parks_table.ParkPctChange_2014,
-        state_parks_table.StateVisitorCount_2014,
-        state_parks_table.StatePctChange_2014).all()
+    results = session.query(state_parks_table.PK,
+                            state_parks_table.State,
+                            state_parks_table.Park,
+                            state_parks_table.ParkVisitorCount_2016,
+                            state_parks_table.ParkPctChange_2016,
+                            state_parks_table.StateVisitorCount_2016,
+                            state_parks_table.StatePctChange_2016,
+                            state_parks_table.ParkVisitorCount_2015,
+                            state_parks_table.ParkPctChange_2015,
+                            state_parks_table.StateVisitorCount_2015,
+                            state_parks_table.StatePctChange_2015,
+                            state_parks_table.ParkVisitorCount_2014,
+                            state_parks_table.ParkPctChange_2014,
+                            state_parks_table.StateVisitorCount_2014,
+                            state_parks_table.StatePctChange_2014).all()
     session.close()
 
     parks = []
-    for PK, State, Park, ParkVisitorCount_2016, ParkPctChange_2016, StateVisitorCount_2016, StatePctChange_2016, ParkVisitorCount_2015, ParkPctChange_2015, StateVisitorCount_2015, StatePctChange_2015, ParkVisitorCount_2014, ParkPctChange_2014, StateVisitorCount_2014, StatePctChange_2014 in results:
+    for PK, State, Park, \
+        ParkVisitorCount_2016, ParkPctChange_2016, StateVisitorCount_2016, StatePctChange_2016, \
+        ParkVisitorCount_2015, ParkPctChange_2015, StateVisitorCount_2015, StatePctChange_2015, \
+        ParkVisitorCount_2014, ParkPctChange_2014, StateVisitorCount_2014, StatePctChange_2014 in results:
         dict = {}
         dict["PK"] = PK
         dict["State"] = State
