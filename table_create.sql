@@ -19,4 +19,4 @@ CREATE TABLE "trails" (
 	"difficulty_rating"  INT, 
 	"visitor_usage"  INT, 
 	"avg_rating"  INT
-),
+);
