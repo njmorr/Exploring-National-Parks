@@ -20,11 +20,18 @@ select * from state_parks;
 
 CREATE TABLE "trails" (
 	"trail_id" INT,
-	"name" varchar(50),
+	"name" varchar,
+	"area_name" varchar,
 	"state_name" varchar(20), 
-	"popularity" INT, 
-	"length"  INT, 
+	"_geoloc" varchar,
+	"popularity" FLOAT, 
+	"length"  FLOAT, 
 	"difficulty_rating"  INT, 
-	"visitor_usage"  INT, 
-	"avg_rating"  INT
+	"route_type" varchar,
+	"visitor_usage"  FLOAT, 
+	"avg_rating"  FLOAT,
+	"features" varchar,
+	"activities" varchar
 );
+
+select * from trails;
