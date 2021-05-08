@@ -17,17 +17,19 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 // load in geojson data
-var geoData = "../../data/gz_2010_us_040_00_5m.json";
-var geojson;
-L.geoJson(geoData).addTo(myMap);
+var geoData = "../static/data/gz_2010_us_040_00_5m.json";
+
+var geoJson;
+
+
 
 
 d3.json(geoData).then(function (data, err) {
     if (err) throw err;
 
     console.log(data);
-    geojson = L.choropleth(data, {
-        //valueProperty: "",
+    geoJson = L.choropleth(data, {
+        valueProperty: "NAME",
 
         // Set color scale
         scale: ["#ffffb2", "#b10026"],
@@ -42,6 +44,10 @@ d3.json(geoData).then(function (data, err) {
             color: "#fff",
             weight: 1,
             fillOpacity: 0.8
+        },
+
+        onEachFeature: function(feature, layer) {
+            layer.bindPopup(feature.properties.NAME);
         }
 
     }).addTo(myMap);
