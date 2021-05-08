@@ -73,14 +73,14 @@ def data():
         dict["ParkPctChange_2016"] = ParkPctChange_2016
         dict["StateVisitorCount_2016"] = StateVisitorCount_2016
         dict["StatePctChange_2016"] = StatePctChange_2016
-        dict["ParkVisitorCount_2015"] = ParkVisitorCount_2016
-        dict["ParkPctChange_2015"] = ParkPctChange_2016
-        dict["StateVisitorCount_2015"] = StateVisitorCount_2016
-        dict["StatePctChange_2015"] = StatePctChange_2016
-        dict["ParkVisitorCount_2014"] = ParkVisitorCount_2016
-        dict["ParkPctChange_2014"] = ParkPctChange_2016
-        dict["StateVisitorCount_2014"] = StateVisitorCount_2016
-        dict["StatePctChange_2014"] = StatePctChange_2016
+        dict["ParkVisitorCount_2015"] = ParkVisitorCount_2015
+        dict["ParkPctChange_2015"] = ParkPctChange_2015
+        dict["StateVisitorCount_2015"] = StateVisitorCount_2015
+        dict["StatePctChange_2015"] = StatePctChange_2015
+        dict["ParkVisitorCount_2014"] = ParkVisitorCount_2014
+        dict["ParkPctChange_2014"] = ParkPctChange_2014
+        dict["StateVisitorCount_2014"] = StateVisitorCount_2014
+        dict["StatePctChange_2014"] = StatePctChange_2014
         parks.append(dict)
     return jsonify(parks)
 
