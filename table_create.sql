@@ -19,10 +19,10 @@ CREATE TABLE "state_parks" (
 select * from state_parks;
 
 CREATE TABLE "trails" (
-	"trail_id" INT,
+	"trail_id" int PRIMARY KEY,
 	"name" varchar,
 	"area_name" varchar,
-	"state_name" varchar(20), 
+	"state_name" varchar, 
 	"_geoloc" varchar,
 	"popularity" FLOAT, 
 	"length"  FLOAT, 
@@ -35,3 +35,15 @@ CREATE TABLE "trails" (
 );
 
 select * from trails;
+
+CREATE TABLE "state_visitors" (
+	"State" varchar PRIMARY KEY,
+	"StateVisitorCount_2016" FLOAT,
+	"StatePctChange_2016" FLOAT,
+	"StateVisitorCount_2015" FLOAT,
+	"StatePctChange_2015" FLOAT,
+	"StateVisitorCount_2014" FLOAT,
+	"StatePctChange_2014" FLOAT
+);
+
+select * from state_visitors;

@@ -23,6 +23,7 @@ base.prepare(engine, reflect=True)
 # Choose the table we wish to use
 state_parks_table = base.classes.state_parks
 trails_table = base.classes.trails
+park_visitors_table = base.classes.state_visitors
 
 
 # Flask Server
@@ -31,16 +32,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-
-    session = Session(engine)
-    results = session.query(state_parks_table.PK).all()
-    session.close()
     return render_template('index.html')
-    return results
 
 
-@app.route("/data")
-def data():
+@app.route("/parksData")
+def parksData():
     session = Session(engine)
     results = session.query(state_parks_table.PK,
                             state_parks_table.State,
@@ -84,8 +80,8 @@ def data():
     return jsonify(parks)
 
 
-@app.route("/visitorData")
-def visitorData():
+@app.route("/trailData")
+def trailData():
     session = Session(engine)
     results = session.query(trails_table.trail_id,
                             trails_table.name,
@@ -120,6 +116,34 @@ def visitorData():
         dict["activities"] = activities
         trails.append(dict)
     return jsonify(trails)
+
+
+@app.route("/visitorData")
+def visitorData():
+    session = Session(engine)
+    results = session.query(park_visitors_table.State,
+                            park_visitors_table.StateVisitorCount_2016,
+                            park_visitors_table.StatePctChange_2016,
+                            park_visitors_table.StateVisitorCount_2015,
+                            park_visitors_table.StatePctChange_2015,
+                            park_visitors_table.StateVisitorCount_2014,
+                            park_visitors_table.StatePctChange_2014).all()
+    session.close()
+
+    visitors = []
+    for State, StateVisitorCount_2016, StatePctChange_2016, StateVisitorCount_2015, StatePctChange_2015, \
+        StateVisitorCount_2014, StatePctChange_2014 in results:
+        dict = {}
+        dict["State"] = State
+        dict["StateVisitorCount_2016"] = StateVisitorCount_2016
+        dict["StatePctChange_2016"] = StatePctChange_2016
+        dict["StateVisitorCount_2015"] = StateVisitorCount_2015
+        dict["StatePctChange_2015"] = StatePctChange_2015
+        dict["StateVisitorCount_2014"] = StateVisitorCount_2014
+        dict["StatePctChange_2014"] = StatePctChange_2014
+        visitors.append(dict)
+    return jsonify(visitors)
+
 
 
 if __name__ == "__main__":
