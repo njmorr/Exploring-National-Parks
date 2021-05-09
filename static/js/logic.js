@@ -102,6 +102,7 @@ function createLinegraph(state) {
         var labels = [2014, 2015, 2016];
         var parkNames = [];
         var parkVisitors = [];
+        var chartData = []
 
         for (var i = 0; i < resultArray.length; i++) {//need to update i < ?
             park_name = resultArray[i].Park;
@@ -113,13 +114,18 @@ function createLinegraph(state) {
            
             parkVisitors.push([visitor_2014, visitor_2015, visitor_2016]);
 
+            var parkDataForChart = {"label":park_name,"lineTension":0.1, "borderColor": "white", "backgroundColor":"green", "data":[visitor_2014, visitor_2015, visitor_2016]};
+            chartData.push(parkDataForChart);
+    
+
                 // this statement below has been giving me an error that I believe is saying there are null values, but I can't find where
                 // parkVisitors.push(parks[0].ParkVisitorCount_2014);
                 // , parks[i].ParkVisitorCount_2015, parks[i].ParkVisitorCount_2016
                 // console.log(parkVisitors); //need to figure out how to deal with null values
         }
-        console.log(parkNames);
-        console.log(parkVisitors);
+        // console.log(parkNames);
+        // console.log(parkVisitors);
+        console.log(chartData);
 
 
         // this commented out code will need to be updated to allow for multiple lines
@@ -134,18 +140,11 @@ function createLinegraph(state) {
         //     }]
         // };
 
-        // const labels = [
-        //     'January',
-        //     'February',
-        //     'March',
-        //     'April',
-        //     'May',
-        //     'June',
-        //   ];
+  
           const data = {
             labels: labels,
             datasets: [{
-            //   label: 'My First dataset',
+              label: 'My First dataset',
               backgroundColor: 'rgb(255, 99, 132)',
               borderColor: 'rgb(255, 99, 132)',
               data: [0, 10, 5,],
