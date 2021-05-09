@@ -34,10 +34,10 @@
 
     <!-- second row-->
     <div class="row">
-    
+
       <!-- chloropleth -->
       <div class="col-md-8">
-        <div id="choropleth" ></div>
+        <div id="choropleth"></div>
       </div>
 
       <!-- State Map -->
@@ -47,13 +47,14 @@
 
     </div>
 
-     <!-- third row-->
-     <div class="row">
+    <!-- third row-->
+    <div class="row">
 
       <!-- Line Chart -->
       <div id="line" class="col-md-4">
-        <p>line graph</p>
-        <p>visitor count by year</p>
+        <div>
+          <canvas id="lineChart"></canvas>
+        </div>
       </div>
 
       <!-- Bubble Chart -->
@@ -84,7 +85,9 @@
 
 
   <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
 
   <!-- d3 JavaScript -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -98,12 +101,12 @@
   <!-- <script src="./static/js/app.js"></script> -->
   <script type="text/javascript" src="../static/js/config.js"></script>
   <script type="text/javascript" src="../static/js/logic.js"></script>
-  
 
-  <script src = "https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 
-  
+
 </body>
 
 </html>
