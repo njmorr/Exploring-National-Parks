@@ -80,16 +80,54 @@ function createLinegraph(state) {
     d3.json("/parksData").then(parks => {
         // console.log(parks);
 
+        //list of states for each park
         var stateName = parks.map(parks => {
             return parks.State;
         });
         // console.log(stateName);
 
+        //list of each park
         var parkName = parks.map(parks => {
             return parks.Park;
         });
         // console.log(parkName);
 
+        // testing table----------------------------------------------------------------------------
+        var labels = [2014, 2015, 2016];
+        var parkNames = [];
+        var parkVisitors = [];
+
+        // for (j = "state selected") //how to loop through state?
+            for (var i = 0; i < parks.length; i++) //need to update i < ?
+                parkNames.push(parks[i].Park);
+                console.log(parkNames);
+                parkVisitors.push(parks[i].ParkVisitorCount_2016, parks[i].ParkVisitorCount_2015, parks[i].ParkVisitorCount_2014);
+                console.log(parkVisitors); //need to figure out how to deal with null values
+                // var data = {
+                //     labels: labels,
+                //     datasets: [{
+                //         label: parkNames,
+                //         data: parkVisitors, //"StateParkData",
+                //         fill: false,
+                //         borderColor: 'rgb(0, 37, 45)', //same color as footer, okay to change
+                //         tension: 0.1
+                //     }]
+                // };
+
+                // var config = {
+                //     type: 'line',
+                //     data: data,
+                //     options: {}
+                // }
+        
+                // var myLineChart = new Chart(
+                //     document.getElementById('lineChart'),
+                //     config
+                // );
+
+        // testing table ^--------------------------------------------------------------------------
+
+        // Working table-----------------------------------------------------------------------------
         var labels = [2014, 2015, 2016];
         var data = {
             labels: labels,
@@ -112,6 +150,7 @@ function createLinegraph(state) {
             document.getElementById('lineChart'),
             config
         );
+        //Working table ^ -------------------------------------------------------------------------------
     }
 
     )
