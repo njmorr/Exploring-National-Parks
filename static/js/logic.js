@@ -13,8 +13,6 @@ console.log("logic.js");
 
 
 
-
-
 //     // Create the map object
 //     var myMap = L.map("choropleth", {
 //         center: [48.3689, -103.77155634166667],
@@ -78,84 +76,52 @@ console.log("logic.js");
 var selector = d3.select("#selDataset")  //needs the correct selector name
 function createLinegraph(state) {
     d3.json("/parksData").then(parks => {
-        // console.log(parks);
+        // state to be selected based on choropleth click
+        var selected_state = "Minnesota"
+        // console.log("selected state " + selected_state);
 
-        //list of states for each park
-        var stateName = parks.map(parks => {
-            return parks.State;
-        });
-        // console.log(stateName);
-
-        //list of each park
-        var parkName = parks.map(parks => {
-            return parks.Park;
-        });
-        // console.log(parkName);
-
-        // testing table----------------------------------------------------------------------------
+        var resultArray = parks.filter(p => p.State == selected_state);
+        // console.log("resultArray" + JSON.stringify(resultArray));
+       
         var labels = [2014, 2015, 2016];
-        var parkNames = [];
-        var parkVisitors = [];
+        var chartData = []
 
-        // for (j = "state selected") //how to loop through state?
-            for (var i = 0; i < parks.length; i++) //need to update i < ?
-                parkNames.push(parks[i].Park);
-                console.log(parkNames);
+        var colors = ["#001219", "#005f73", "#0a9396", "#94d2bd", "#ee9b00", "#ca6702", "#bb3e03", "#ae2012", "#9b2226",
+        "#001219", "#005f73", "#0a9396", "#94d2bd", "#ee9b00", "#ca6702", "#bb3e03", "#ae2012", "#9b2226",
+        "#001219", "#005f73", "#0a9396", "#94d2bd", "#ee9b00", "#ca6702", "#bb3e03", "#ae2012", "#9b2226"];
 
-                // this statement below has been giving me an error that I believe is saying there are null values, but I can't find where
-                parkVisitors.push(parks[i].ParkVisitorCount_2014);
-                // , parks[i].ParkVisitorCount_2015, parks[i].ParkVisitorCount_2016
-                console.log(parkVisitors); //need to figure out how to deal with null values
+        for (var i = 0; i < resultArray.length; i++) {
+            park_name = resultArray[i].Park;
+             
+            visitor_2014 = resultArray[i].ParkVisitorCount_2014;
+            visitor_2015 = resultArray[i].ParkVisitorCount_2015;
+            visitor_2016 = resultArray[i].ParkVisitorCount_2016;
+            color = colors[i]
 
-                //this commented out code will need to be updated to allow for multiple lines
-                // var data = {
-                //     labels: labels,
-                //     datasets: [{
-                //         label: parkNames,
-                //         data: parkVisitors, //"StateParkData",
-                //         fill: false,
-                //         borderColor: 'rgb(0, 37, 45)', //same color as footer, okay to change
-                //         tension: 0.1
-                //     }]
-                // };
+            var parkDataForChart = {"label":park_name,"lineTension":0.5, "borderWidth":2, "borderColor": "white", "backgroundColor":color, "data":[visitor_2014, visitor_2015, visitor_2016]};
+            chartData.push(parkDataForChart);
+        }
 
-                // var config = {
-                //     type: 'line',
-                //     data: data,
-                //     options: {}
-                // }
-        
-            // var myLineChart = new Chart(
-            //     document.getElementById('lineChart'),
-            //     config
-            // );
+        // console.log(parkNames);
+        // console.log(parkVisitors);
+        // console.log(chartData);
 
-        // testing table ^--------------------------------------------------------------------------
-
-        // Working table-----------------------------------------------------------------------------
-        var labels = [2014, 2015, 2016];
-        var data = {
+          const data = {
             labels: labels,
-            datasets: [{
-                label: parks[0].Park,
-                data: [parks[0].ParkVisitorCount_2016, parks[0].ParkVisitorCount_2015, parks[0].ParkVisitorCount_2014], //"StateParkData",
-                fill: false,
-                borderColor: 'rgb(0, 37, 45)', //same color as footer, okay to change
-                tension: 0.1
-            }]
-        };
+            datasets: chartData
+          };
 
         var config = {
             type: 'line',
             data: data,
             options: {}
         }
-
+        
         var myLineChart = new Chart(
             document.getElementById('lineChart'),
             config
         );
-        //Working table ^ -------------------------------------------------------------------------------
+
     }
 
     )
@@ -164,15 +130,15 @@ function createLinegraph(state) {
 // function createBubblechart(state) {
 d3.json('/trailData').then(trailData => {
  
-        console.log("inside trailData");
-        console.log(trailData);
+        // console.log("inside trailData");
+        // console.log(trailData);
 
             //Florida California
             var selected_state = "Minnesota"
-            console.log("selected state " + selected_state);
+            // console.log("selected state " + selected_state);
             var resultArray = trailData.filter(s => s.state_name == selected_state);
             
-            console.log("resultArray" + JSON.stringify(resultArray));
+            // console.log("resultArray" + JSON.stringify(resultArray));
                 
             var trail_difficulty_rating = [];
             var trail_avg_rating = [];
