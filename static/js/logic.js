@@ -75,7 +75,7 @@ console.log("logic.js");
 //     });
 // });
 
-var selector = d3.select("#selDataset")  //needs the correct selector
+var selector = d3.select("#selDataset")  //needs the correct selector name
 function createLinegraph(state) {
     d3.json("/parksData").then(parks => {
         // console.log(parks);
@@ -101,8 +101,13 @@ function createLinegraph(state) {
             for (var i = 0; i < parks.length; i++) //need to update i < ?
                 parkNames.push(parks[i].Park);
                 console.log(parkNames);
-                parkVisitors.push(parks[i].ParkVisitorCount_2016, parks[i].ParkVisitorCount_2015, parks[i].ParkVisitorCount_2014);
+
+                // this statement below has been giving me an error that I believe is saying there are null values, but I can't find where
+                parkVisitors.push(parks[i].ParkVisitorCount_2014);
+                // , parks[i].ParkVisitorCount_2015, parks[i].ParkVisitorCount_2016
                 console.log(parkVisitors); //need to figure out how to deal with null values
+
+                //this commented out code will need to be updated to allow for multiple lines
                 // var data = {
                 //     labels: labels,
                 //     datasets: [{
@@ -120,10 +125,10 @@ function createLinegraph(state) {
                 //     options: {}
                 // }
         
-                // var myLineChart = new Chart(
-                //     document.getElementById('lineChart'),
-                //     config
-                // );
+            // var myLineChart = new Chart(
+            //     document.getElementById('lineChart'),
+            //     config
+            // );
 
         // testing table ^--------------------------------------------------------------------------
 

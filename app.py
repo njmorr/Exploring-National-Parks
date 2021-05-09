@@ -18,7 +18,7 @@ connection_string = f'postgresql://{username}:{password}@localhost:5432/{databas
 engine = create_engine(connection_string)
 base = automap_base()
 base.prepare(engine, reflect=True)
-# print(base)
+print(base)
 
 # Choose the table we wish to use
 state_parks_table = base.classes.state_parks
