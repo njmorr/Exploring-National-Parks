@@ -86,7 +86,7 @@ d3.json('/trailData').then(trailData => {
         console.log(trailData);
 
             
-            var selected_state = "Minnesota"
+            var selected_state = "Florida"
             console.log("selected state " + selected_state);
             var resultArray = trailData.filter(s => s.state_name == selected_state);
             
@@ -99,10 +99,10 @@ d3.json('/trailData').then(trailData => {
             var trail_hover_text = [];
 
             resultArray.forEach(trail => {
-                trail_difficulty_rating.push(trail.difficulty_rating);
+                trail_difficulty_rating.push(trail.difficulty_rating*7);
                 trail_avg_rating.push(trail.avg_rating);
                 trail_length.push(trail.length_yds);
-                trail_popularity.push(trail.popularity*5);
+                trail_popularity.push(trail.popularity);
                 trail_hover_text.push('Trail Name: ' + trail.name + '<br>Avg Rating:' + trail.avg_rating);
                 
             });
@@ -115,15 +115,16 @@ d3.json('/trailData').then(trailData => {
     
             var bubbleData = {
                 x: trail_length,
-                //x : visitor_usage, 
-                y: trail_difficulty_rating,
+                //y: trail_difficulty_rating,
+                y: trail_popularity,
                 text: trail_hover_text,
                 //to remove the y axis number in the hover
                 hovertemplate: '%{text}',
                 mode: 'markers',
                 marker: {
                     color: trail_avg_rating,
-                    size: trail_popularity
+                    //size: trail_popularity (update at top * 10)
+                    size: trail_difficulty_rating
                 }
             };
 
@@ -138,7 +139,7 @@ d3.json('/trailData').then(trailData => {
                     title: "trail length"    
                 },
                 yaxis: {
-                    title: "trail difficulty"    
+                    title: "trail popularity"    
                 },
                 
                 
