@@ -85,8 +85,8 @@ d3.json('/trailData').then(trailData => {
         console.log("inside trailData");
         console.log(trailData);
 
-            
-            var selected_state = "Florida"
+            //Florida California
+            var selected_state = "Minnesota"
             console.log("selected state " + selected_state);
             var resultArray = trailData.filter(s => s.state_name == selected_state);
             
@@ -103,7 +103,10 @@ d3.json('/trailData').then(trailData => {
                 trail_avg_rating.push(trail.avg_rating);
                 trail_length.push(trail.length_yds);
                 trail_popularity.push(trail.popularity);
-                trail_hover_text.push('Trail Name: ' + trail.name + '<br>Avg Rating:' + trail.avg_rating);
+                trail_hover_text.push('Trail Name: ' + trail.name + 
+                                      '<br>Area Name:' + trail.area_name +
+                                      '<br>Difficulty Rating:' + trail.difficulty_rating +
+                                      '<br>Avg Rating:' + trail.avg_rating);
                 
             });
     
@@ -131,8 +134,9 @@ d3.json('/trailData').then(trailData => {
             var bubbleArray = [bubbleData];
     
             var bubbleLayout = {
-                title: "Trail Bubble Chart",
+                title: "Trail Comparison",
                 showlegend:false,
+                autosize:true,
                 height: 400,
                 width: 600,
                 xaxis: {
@@ -140,10 +144,10 @@ d3.json('/trailData').then(trailData => {
                 },
                 yaxis: {
                     title: "trail popularity"    
-                },
-                
+                }
                 
             };
+
     
             Plotly.newPlot('bubble', bubbleArray, bubbleLayout);
         //})
