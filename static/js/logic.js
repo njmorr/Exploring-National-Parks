@@ -3,7 +3,7 @@ console.log("logic.js");
 // var visitorData
 // var trailData
 
-d3.json('/data').then(visitorData => {
+d3.json('/visitorData').then(visitorData => {
 
     // parks has meaning only inside of here.
     // And for very bizarre reasons, you can't assign it
@@ -80,8 +80,81 @@ d3.json('/data').then(visitorData => {
 // }
 
 // function createBubblechart(state) {
+d3.json('/trailData').then(trailData => {
+ 
+        console.log("inside trailData");
+        console.log(trailData);
+
+            
+            var selected_state = "Minnesota"
+            console.log("selected state " + selected_state);
+            var resultArray = trailData.filter(s => s.state_name == selected_state);
+            
+            console.log("resultArray" + JSON.stringify(resultArray));
+                
+            var trail_difficulty_rating = [];
+            var trail_avg_rating = [];
+            var trail_length = [];
+            var trail_popularity = [];
+            var trail_hover_text = [];
+
+            resultArray.forEach(trail => {
+                trail_difficulty_rating.push(trail.difficulty_rating);
+                trail_avg_rating.push(trail.avg_rating);
+                trail_length.push(trail.length_yds);
+                trail_popularity.push(trail.popularity*5);
+                trail_hover_text.push('Trail Name: ' + trail.name + '<br>Avg Rating:' + trail.avg_rating);
+                
+            });
+    
+            // console.log("trail raiting: " + trail_avg_rating);
+            // console.log("trail length: " + trail_length);
+            // console.log("trail popularity: " + trail_popularity);
+    
+            
+    
+            var bubbleData = {
+                x: trail_length,
+                //x : visitor_usage, 
+                y: trail_difficulty_rating,
+                text: trail_hover_text,
+                //to remove the y axis number in the hover
+                hovertemplate: '%{text}',
+                mode: 'markers',
+                marker: {
+                    color: trail_avg_rating,
+                    size: trail_popularity
+                }
+            };
+
+            var bubbleArray = [bubbleData];
+    
+            var bubbleLayout = {
+                title: "Trail Bubble Chart",
+                showlegend:false,
+                height: 400,
+                width: 600,
+                xaxis: {
+                    title: "trail length"    
+                },
+                yaxis: {
+                    title: "trail difficulty"    
+                },
+                
+                
+            };
+    
+            Plotly.newPlot('bubble', bubbleArray, bubbleLayout);
+        //})
 
 
+
+
+
+
+        //console.log(trailData[0]);
+    
+});
 // }
 
 // function createLegend(state) {
@@ -89,11 +162,11 @@ d3.json('/data').then(visitorData => {
 // }
 
 
-function init() {
+// function init() {
 
-    createChoropleth();
+//     createChoropleth();
 
-}
+// }
 
 
 // function updateDashboard(state) {

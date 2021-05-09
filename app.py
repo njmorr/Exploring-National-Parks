@@ -107,7 +107,7 @@ def trailData():
         dict["state_name"] = state_name
         dict["geoloc"] = _geoloc
         dict["popularity"] = popularity
-        dict["length_yds)"] = length
+        dict["length_yds"] = length
         dict["difficulty_rating"] =difficulty_rating
         dict["route_type"] = route_type
         dict["visitor_usage"] = visitor_usage
