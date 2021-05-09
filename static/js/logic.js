@@ -75,35 +75,47 @@ console.log("logic.js");
 //     });
 // });
 
-d3.json("/parksData").then(parks => {
-    console.log(parks);
-    var labels = [2014, 2015, 2016];
-    var data = {
-        labels: labels,
-        datasets: [{
-            label: parks[0].Park,
-            data: [parks[0].ParkVisitorCount_2016, parks[0].ParkVisitorCount_2015, parks[0].ParkVisitorCount_2014], //"StateParkData",
-            fill: false,
-            borderColor: 'rgb(0, 37, 45)', //same color as footer, okay to change
-            tension: 0.1
-        }]
-    };
+var selector = d3.select("#selDataset")  //needs the correct selector
+function createLinegraph(state) {
+    d3.json("/parksData").then(parks => {
+        // console.log(parks);
 
-    var config = {
-        type: 'line',
-        data: data,
-        options: {}
+        var stateName = parks.map(parks => {
+            return parks.State;
+        });
+        // console.log(stateName);
+
+        var parkName = parks.map(parks => {
+            return parks.Park;
+        });
+        // console.log(parkName);
+
+        var labels = [2014, 2015, 2016];
+        var data = {
+            labels: labels,
+            datasets: [{
+                label: parks[0].Park,
+                data: [parks[0].ParkVisitorCount_2016, parks[0].ParkVisitorCount_2015, parks[0].ParkVisitorCount_2014], //"StateParkData",
+                fill: false,
+                borderColor: 'rgb(0, 37, 45)', //same color as footer, okay to change
+                tension: 0.1
+            }]
+        };
+
+        var config = {
+            type: 'line',
+            data: data,
+            options: {}
+        }
+
+        var myLineChart = new Chart(
+            document.getElementById('lineChart'),
+            config
+        );
     }
 
-    var myLineChart = new Chart(
-        document.getElementById('lineChart'),
-        config
-      );
+    )
 }
-);
-// function createLinegraph(state) {
-
-// }
 
 // function createBubblechart(state) {
 
@@ -116,10 +128,18 @@ d3.json("/parksData").then(parks => {
 
 
 function init() {
-
+    // MAY NEED UPDATING BASED ON MAP CODE
+    // ----------------------------------
+    // stateName.forEach(stateSelected => {
+    // selector.append("option")
+    //         .text(stateSelected)
+    //         .property("value", stateSelected);
+    // });
+    // ----------------------------------------
     // createChoropleth();
+    createLinegraph();
 
-}
+};
 
 
 // function updateDashboard(state) {
