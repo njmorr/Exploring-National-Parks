@@ -76,25 +76,11 @@ console.log("logic.js");
 var selector = d3.select("#selDataset")  //needs the correct selector name
 function createLinegraph(state) {
     d3.json("/parksData").then(parks => {
-        // console.log(parks);
-
-        //list of states for each park
-        var stateName = parks.map(parks => {
-            return parks.State;
-        });
-        // console.log(stateName);
-
-        //list of each park
-        var parkName = parks.map(parks => {
-            return parks.Park;
-        });
-        // console.log(parkName);
-
         // state to be selected based on choropleth click
         var selected_state = "Minnesota"
         // console.log("selected state " + selected_state);
+
         var resultArray = parks.filter(p => p.State == selected_state);
-        
         // console.log("resultArray" + JSON.stringify(resultArray));
        
         var labels = [2014, 2015, 2016];
