@@ -91,7 +91,7 @@ function createLinegraph(state) {
         // console.log(parkName);
 
         // state to be selected based on choropleth click
-        var selected_state = "California"
+        var selected_state = "Minnesota"
         console.log("selected state " + selected_state);
         var resultArray = parks.filter(p => p.State == selected_state);
         
@@ -114,7 +114,7 @@ function createLinegraph(state) {
            
             parkVisitors.push([visitor_2014, visitor_2015, visitor_2016]);
 
-            var parkDataForChart = {"label":park_name,"lineTension":0.1, "borderColor": "white", "backgroundColor":"green", "data":[visitor_2014, visitor_2015, visitor_2016]};
+            var parkDataForChart = {"label":park_name,"lineTension":0.1, "borderColor": "white", "backgroundColor":"#CA6702", "data":[visitor_2014, visitor_2015, visitor_2016]};
             chartData.push(parkDataForChart);
     
 
@@ -143,12 +143,7 @@ function createLinegraph(state) {
   
           const data = {
             labels: labels,
-            datasets: [{
-              label: 'My First dataset',
-              backgroundColor: 'rgb(255, 99, 132)',
-              borderColor: 'rgb(255, 99, 132)',
-              data: [0, 10, 5,],
-            }]
+            datasets: chartData
           };
 
         var config = {
