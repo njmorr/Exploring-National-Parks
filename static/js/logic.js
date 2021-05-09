@@ -86,14 +86,19 @@ function createLinegraph(state) {
         var labels = [2014, 2015, 2016];
         var chartData = []
 
+        var colors = ["#001219", "#005f73", "#0a9396", "#94d2bd", "#ee9b00", "#ca6702", "#bb3e03", "#ae2012", "#9b2226",
+        "#001219", "#005f73", "#0a9396", "#94d2bd", "#ee9b00", "#ca6702", "#bb3e03", "#ae2012", "#9b2226",
+        "#001219", "#005f73", "#0a9396", "#94d2bd", "#ee9b00", "#ca6702", "#bb3e03", "#ae2012", "#9b2226"];
+
         for (var i = 0; i < resultArray.length; i++) {
             park_name = resultArray[i].Park;
              
             visitor_2014 = resultArray[i].ParkVisitorCount_2014;
             visitor_2015 = resultArray[i].ParkVisitorCount_2015;
             visitor_2016 = resultArray[i].ParkVisitorCount_2016;
+            color = colors[i]
 
-            var parkDataForChart = {"label":park_name,"lineTension":0.1, "borderColor": "white", "backgroundColor":"#CA6702", "data":[visitor_2014, visitor_2015, visitor_2016]};
+            var parkDataForChart = {"label":park_name,"lineTension":0.5, "borderWidth":2, "borderColor": "white", "backgroundColor":color, "data":[visitor_2014, visitor_2015, visitor_2016]};
             chartData.push(parkDataForChart);
         }
 
