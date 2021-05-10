@@ -44,12 +44,12 @@ Notes on things we learned about doing this project
 	* `trails`
 1. Query each table individually and inspect to ensure the first column is noted at as a Primary Key and no data is in the table
 
-<h4>Populate the Database</h4>
+#### Populate the Database
 1. Launch the jupyter notebook file `NationalParkData.ipynb` located in the main directory
 1. Run `NationalParkData.ipynb` in its entirety
 1. Return to pgAdmin and query each table individually to verify each table was populated correctly
 
-<h4>Launch Application</h4>
+#### Launch Application
 1. Launch a new gitbash window (pc) or terminal (mac) from the main directory
 1. enter the following commands.
 	* `source activate PythonData`
