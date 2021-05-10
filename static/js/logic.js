@@ -86,7 +86,6 @@ d3.json(geoData).then(function (data, err) {
                     numVisitors = stateData[0].StateVisitorCount_2014;
                 }
 
-               
                 // console.log(`stateName = ${stateName}`);
                 // console.log('stateData');
                 // console.log(stateData); 
@@ -94,6 +93,28 @@ d3.json(geoData).then(function (data, err) {
             
                 layer.bindPopup(`${stateName} <br> Visitors: ${numVisitors}`);
 
+                // Set mouse events to change map styling
+                layer.on({
+                    // When a user's mouse touches a map feature, the mouseover event calls this function, that feature's opacity changes to 90% so that it stands out
+                    mouseover: function(event) {
+                    layer = event.target;
+                    layer.setStyle({
+                        fillOpacity: 0.9
+                    });
+                    },
+                    // When the cursor no longer hovers over a map feature - when the mouseout event occurs - the feature's opacity reverts back to 50%
+                    mouseout: function(event) {
+                    layer = event.target;
+                    layer.setStyle({
+                        fillOpacity: 0.5
+                    });
+                    },
+                    // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
+                    click: function(event) {
+                    myMap.fitBounds(event.target.getBounds());
+                    }
+                });
+    
             }
 
         }).addTo(myMap);
