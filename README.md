@@ -26,7 +26,7 @@ Notes on things we learned about doing this project <br>
 
 <h3>Instructions</h3>
 <h4>Getting Started<h4>
-    1. Go to our shared repo: <a href="https://github.com/njmorr/Exploring-National-Parks">National Parks Repo</a>
+    1. Go to our shared repo: <a href="https://github.com/njmorr/Exploring-National-Parks">National Parks Repo</a> <br>
     1. Clone repo to location of your choosing
     1. Create `config.py` in the main directory and populate with:
 	    * `username = “your_postgres_username”`
