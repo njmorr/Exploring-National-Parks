@@ -52,7 +52,7 @@ Some things to note:
 
 #### Populate the Database
 1. Launch the jupyter notebook file `NationalParkData.ipynb` located in the main directory
-1. Run `NationalParkData.ipynb` in its entirety
+1. Run cells `NationalParkData.ipynb` until you reach the markdown labeled "GeoJson Magic below!!"
 1. Return to pgAdmin and query each table individually to verify each table was populated correctly
 
 #### Launch Application
