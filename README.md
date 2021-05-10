@@ -32,7 +32,7 @@ Notes on things we learned about doing this project
     * `username = “your_postgres_username”`
     * `password = “your_postgres_password”`
 1. Create `config.js` in the subfolder `static/js` with
-	    * `const API_KEY = “your_mapbox_API_key_here”`
+	* `const API_KEY = “your_mapbox_API_key_here”`
 
 #### Setting up the Database
 1. Launch pgAdmin
