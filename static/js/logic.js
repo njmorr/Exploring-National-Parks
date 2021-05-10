@@ -116,7 +116,7 @@ d3.json(geoData).then(function (data, err) {
                 });
 
                 layer.on('click', function () { 
-                    alert("You clicked the map"); 
+                    alert(`You clicked ${stateName}`); 
                 });
 
             }
