@@ -23,10 +23,11 @@ body {
 
 #choropleth {
   position: relative;
+  margin-bottom: 10px;
   background: #0A9396;
-  color: #001219;
+  border-color: #0A9396;
   border-style: solid;
-  border-color: #e9d8a6;
+  border-width: 5px;
   height: 50vh;
   width: 100%;
 }
@@ -67,7 +68,9 @@ body {
   position: relative;
   margin-top: 15px;
   min-height: 20px;
+  padding-top: 5px;
   background: #005f73;
   color: #e9d8a6;
   text-align: center;
+  font-weight: bold;
 }
