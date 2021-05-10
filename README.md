@@ -22,7 +22,13 @@ Some things to note:
 * The trail data (bubble chart) only includes information for 30 states 
 
 ### Things We Learned
-Notes on things we learned about doing this project 
+* How to build geojson data or find good geojsons to use
+* How to create a line graph in chart.js
+* Solidified knowledge of bootstrap and D3
+* How to connect a Postgres SQL database to a Flask server
+* How to pull data into a website using a Flask server
+* How to scale a project to a reasonable workload for the time given
+* Choosing the right teammates makes all the difference!
 
 ### Instructions
 #### Getting Started
@@ -46,7 +52,7 @@ Notes on things we learned about doing this project
 
 #### Populate the Database
 1. Launch the jupyter notebook file `NationalParkData.ipynb` located in the main directory
-1. Run `NationalParkData.ipynb` in its entirety
+1. Run cells `NationalParkData.ipynb` until you reach the markdown labeled "GeoJson Magic below!!"
 1. Return to pgAdmin and query each table individually to verify each table was populated correctly
 
 #### Launch Application
