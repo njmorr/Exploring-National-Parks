@@ -18,16 +18,6 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 // load in geojson data
 var geoData = "../static/data/gz_2010_us_040_00_5m.json";
 
-//     // Add tile layer to the map
-//     L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-//         attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
-//         tileSize: 512,
-//         maxZoom: 18,
-//         zoomOffset: -1,
-//         id: "mapbox/streets-v11",
-//         accessToken: API_KEY
-//     }).addTo(myMap);
-
 
 var lookupVisitorCount = {
     // stateName: visitorCount
@@ -60,13 +50,14 @@ d3.json(geoData).then(function (data, err) {
 
         console.log("Showing lookupVisitorCount");
         console.log(lookupVisitorCount); 
-
+        console.log(`this is Data:`);
+        console.log(data);
 
         // The data parameters holds a geoJSON
         var geo = L.geoJson(data, {
             
-            valueProperty: lookupVisitorCount[data.NAME], 
-
+            valueProperty: lookupVisitorCount[data.features[2].properties.NAME], 
+            // test: data.features[2].properties.NAME,
             // Set color scale
             scale: ["#9B2226", "#E9D8A6"],
             // scale: ["#ffffb2", "#b10026"],
@@ -82,7 +73,7 @@ d3.json(geoData).then(function (data, err) {
             //     weight: 1,
             //     fillOpacity: 0.8
             // },
-            style: style( lookupVisitorCount[data.NAME] ),
+            style: style( lookupVisitorCount[data.features[2].properties.NAME] ),
             
             // This operates on ALL states (from the geoJSON)
             onEachFeature: function (feature, layer) {
@@ -151,13 +142,13 @@ function style(visitorsCount) {
 
 
 // function createLinegraph(state) {
+console.log(`let's go into the line graph`)
 
 
-var selector = d3.select("#selDataset")  //needs the correct selector name
 function createLinegraph(state) {
     d3.json("/parksData").then(parks => {
         // state to be selected based on choropleth click
-        var selected_state = "Minnesota"
+        var selected_state = state
         // console.log("selected state " + selected_state);
 
         var resultArray = parks.filter(p => p.State == selected_state);
@@ -208,14 +199,15 @@ function createLinegraph(state) {
     )
 }
 
-// function createBubblechart(state) {
+console.log(`let's go into the bubble chart`)
+
+function createBubblechart(state) {
 d3.json('/trailData').then(trailData => {
  
         // console.log("inside trailData");
         // console.log(trailData);
 
-            //Florida California
-            var selected_state = "Minnesota"
+            var selected_state = state
             // console.log("selected state " + selected_state);
             var resultArray = trailData.filter(s => s.state_name == selected_state);
             
@@ -289,7 +281,7 @@ d3.json('/trailData').then(trailData => {
         //console.log(trailData[0]);
     
 });
-// }
+}
 
 // function createLegend(state) {
 // // for
@@ -306,10 +298,16 @@ function init() {
     // });
     // ----------------------------------------
     // createChoropleth();
-    createLinegraph();
+
+    // var selector = d3.select("#selDataset")  //needs the correct selector name
+    var state = "Minnesota"
+    
+    createLinegraph(state);
+    createBubblechart(state);
 
 };
 
+init();
 
 
 // function updateDashboard(state) {
