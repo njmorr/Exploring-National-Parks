@@ -26,13 +26,13 @@ Notes on things we learned about doing this project <br>
 
 <h3>Instructions</h3>
 <h4>Getting Started<h4>
-1. Go to our shared repo: <a href="https://github.com/njmorr/Exploring-National-Parks">National Parks Repo</a>
-1. Clone repo to location of your choosing
-1. Create `config.py` in the main directory and populate with:
-	* `username = “your_postgres_username”`
-* `password = “your_postgres_password”`
-1. Create `config.js` in the subfolder `static/js` with
-	* `const API_KEY = “your_mapbox_API_key_here”`
+    1. Go to our shared repo: <a href="https://github.com/njmorr/Exploring-National-Parks">National Parks Repo</a>
+    1. Clone repo to location of your choosing
+    1. Create `config.py` in the main directory and populate with:
+	    * `username = “your_postgres_username”`
+        * `password = “your_postgres_password”`
+    1. Create `config.js` in the subfolder `static/js` with
+	    * `const API_KEY = “your_mapbox_API_key_here”`
 
 <h4>Setting up the Database</h4>
 1. Launch pgAdmin
