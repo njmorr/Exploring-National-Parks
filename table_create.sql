@@ -47,3 +47,4 @@ CREATE TABLE "state_visitors" (
 );
 
 select * from state_visitors;
+
