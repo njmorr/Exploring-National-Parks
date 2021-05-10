@@ -1,7 +1,7 @@
-<h1> Exploring National Parks </h1>
+# Exploring National Parks
 
 <h3>Introduction</h3>
-Welcome to our exploration into the National Park system in the United States.  Most people think of the National Park System as only containing the National Parks (of which there are 61), but there are many different types of lands that fall under the jurisdiction of the National Park Service.  For instance, when interacting with dashboard, you may see these abbreviations:
+Welcome to our exploration into the National Park system in the United States.  Most people think of the National Park System as only containing the National Parks (of which there are 61), but there are many different types of lands that fall under the jurisdiction of the National Park Service.  For instance, when interacting with dashboard, you may see these abbreviations: <br>
     * NB (National Battlefield)
     * NHP (National Historical Park)
 * NHS (National Historic Site)
