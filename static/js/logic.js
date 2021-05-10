@@ -110,16 +110,14 @@ d3.json(geoData).then(function (data, err) {
                         });
                     },
                     // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
-                    click: function (event) {
-                        myMap.fitBounds(event.target.getBounds());
-                    }
+                    // click: function (event) {
+                    //     myMap.fitBounds(event.target.getBounds());
+                    // }
                 });
 
-                layer.on('click', function () { 
-                    // alert(`You clicked ${stateName}`); 
+                layer.on('click', function () {
                     createLinegraph(stateName);
                     createBubblechart(stateName);
-                    // createLegend(stateName);
                 });
 
             }
@@ -176,14 +174,14 @@ console.log(`let's go into the line graph`)
 
 function createLinegraph(state) {
     d3.json("/parksData").then(parks => {
-    
-        if (typeof window.myLineChart != "undefined"){
+        // clearing out the line chart before redrawing it again, if it already exsists.
+        if (typeof window.myLineChart != "undefined") {
             console.log("myLineChart is defined!! and should be destroyed!")
             window.myLineChart.destroy();
-        } else{
+        } else {
             console.log("variable has yet to be defined.")
         };
-        
+
         // "destroying" line plot area
         // https://github.com/chartjs/Chart.js/issues/1007
         // accessed 10 May 2021
@@ -227,13 +225,37 @@ function createLinegraph(state) {
         var config = {
             type: 'line',
             data: data,
-            options: {}
+            options: {
+                plugins: {
+                    title: {
+                        display: true,
+                        text: `Visitor Counts by Year per Park in ${selected_state}`,
+                        font: {
+                            size: 16
+                        }
+                    }
+                },
+                scales: {
+                    x: [{
+                        title: {
+                            display: true,
+                            labelString: 'Year'
+                        }
+                    }],
+                    y: [{
+                        title: {
+                            display: true,
+                            labelString: 'Visitor Count'
+                        }
+                    }]
+                }
+            }
         };
 
         window.myLineChart = new Chart(
             document.getElementById('lineChart'),
             config
-        );       
+        );
 
     });
 };
@@ -262,12 +284,12 @@ function createBubblechart(state) {
         resultArray.forEach(trail => {
             trail_difficulty_rating.push(trail.difficulty_rating * 7);
             trail_avg_rating.push(trail.avg_rating);
-            trail_length.push(trail.length_yds);
+            trail_length.push(trail.length_yds/1760);
             trail_popularity.push(trail.popularity);
             trail_hover_text.push('Trail Name: ' + trail.name +
-                '<br>Area Name:' + trail.area_name +
-                '<br>Difficulty Rating:' + trail.difficulty_rating +
-                '<br>Avg Rating:' + trail.avg_rating);
+                '<br>Park Name: ' + trail.area_name +
+                '<br>Difficulty Rating: ' + trail.difficulty_rating +
+                '<br>Avg Rating: ' + trail.avg_rating);
 
         });
 
@@ -295,16 +317,16 @@ function createBubblechart(state) {
         var bubbleArray = [bubbleData];
 
         var bubbleLayout = {
-            title: "Trail Comparison",
+            title: `Comparison of Trails in ${selected_state}`,
             showlegend: false,
             autosize: true,
             height: 400,
             width: 600,
             xaxis: {
-                title: "trail length"
+                title: "Trail Length (miles)"
             },
             yaxis: {
-                title: "trail popularity"
+                title: "Trail Popularity"
             }
 
         };
