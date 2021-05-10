@@ -148,7 +148,7 @@ def visitorData():
 
 @app.route("/mapData")
 def mapData():
-    filename = "./static/data/new_geojson.json"
+    filename = "./static/data/parks_geojson.json"
     file = open(filename, "r")
     data = json.loads(file.read())
        
