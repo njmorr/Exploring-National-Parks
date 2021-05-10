@@ -16,15 +16,15 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 // load in geojson data
-var geoData = "../static/data/gz_2010_us_040_00_5m.json";
-
+// var geoData = "../static/data/gz_2010_us_040_00_5m.json";
+var geoData = '../static/data/parks_geojson.js';
 
 var lookupVisitorCount = {
     // stateName: visitorCount
 };
 
-
-var colors = ['#BB3E03', '#005f73', '#94D2BD', '#CA6702', '#EE9B00', '#0A9396', '#9B2226', '#E9D8A6'];
+// var colors = ['#BB3E03', '#005f73', '#94D2BD', '#CA6702', '#EE9B00', '#0A9396', '#9B2226', '#E9D8A6'];
+// var colors = ['#BB3E03', '#CA6702', '#EE9B00', '#E9D8A6', '#005f73', '#0A9396', '#94D2BD', '#9B2226'];
 
 d3.json(geoData).then(function (data, err) {
     if (err) throw err;
@@ -41,12 +41,12 @@ d3.json(geoData).then(function (data, err) {
         console.log(data);
 
         // Populate stateVisitorcount with a key-value pair for each state
-        visitors.forEach(v => {
-            var stateName = v.State;
-            if (!(stateName in lookupVisitorCount)) {
-                lookupVisitorCount[stateName] = v.StateVisitorCount_2014;
-            }
-        });
+        // visitors.forEach(v => {
+        //     var stateName = v.State;
+        //     if (!(stateName in lookupVisitorCount)) {
+        //         lookupVisitorCount[stateName] = v.StateVisitorCount_2016;
+        //     }
+        // });
 
         console.log("Showing lookupVisitorCount");
         console.log(lookupVisitorCount);
@@ -56,26 +56,16 @@ d3.json(geoData).then(function (data, err) {
         // The data parameters holds a geoJSON
         var geo = L.geoJson(data, {
 
-            valueProperty: lookupVisitorCount[data.features[2].properties.NAME],
-            // test: data.features[2].properties.NAME,
-            // Set color scale
-            scale: ["#9B2226", "#E9D8A6"],
-            // scale: ["#ffffb2", "#b10026"],
+            style: function (feature) {
+                return {
+                    color: "white",
+                    fillColor: getColor(feature.properties.StateVisitorCount_2016),
+                    fillOpacity: 0.5,
+                    weight: 1.5
+                };
+            },
 
-            // Number of breaks in step range
-            steps: 8,
-
-            // q for quartile, e for equidistant, k for k-means
-            mode: "q",
-            // style: {
-            //     // Border color
-            //     color: "#BB3E03",
-            //     weight: 1,
-            //     fillOpacity: 0.8
-            // },
-            style: style(lookupVisitorCount[data.features[2].properties.NAME]),
-
-            // This operates on ALL states (from the geoJSON)
+            // This is like a forEach loop that operates on each state (from the geoJSON)
             onEachFeature: function (feature, layer) {
 
                 var stateName = feature.properties.NAME;
@@ -83,7 +73,7 @@ d3.json(geoData).then(function (data, err) {
 
                 var numVisitors = 0;
                 if (stateData.length > 0) {
-                    numVisitors = stateData[0].StateVisitorCount_2014;
+                    numVisitors = stateData[0].StateVisitorCount_2016;
                 }
 
                 // console.log(`stateName = ${stateName}`);
@@ -123,7 +113,25 @@ d3.json(geoData).then(function (data, err) {
             }
 
         }).addTo(myMap);
-        console.log(geo);
+        var legend = L.control({ position: 'bottomright' });
+
+        legend.onAdd = function (myMap) {
+
+            var div = L.DomUtil.create('div', 'info legend'),
+                visitors = [0, 10000, 50000, 100000, 250000, 500000, 1000000, 10000000],
+                labels = colors;
+
+            // loop through our density intervals and generate a label with a colored square for each interval
+            for (var i = 0; i < visitors.length; i++) {
+                div.innerHTML +=
+                    '<i style="background:' + getColor(visitors[i] + 1) + '"></i> ' +
+                    visitors[i] + (visitors[i + 1] ? '&ndash;' + visitors[i + 1] + '<br>' : '+');
+            }
+
+            return div;
+        };
+
+        legend.addTo(myMap);
     });
 
     console.log("we got here... ");
@@ -134,15 +142,16 @@ d3.json(geoData).then(function (data, err) {
 function getStateVisitors(stateName) {
     d3.json('/visitorData').then(visitors => {
         var stateData = visitors.filter(d => d.State === stateName);
-        var visitorsCount = stateData.StateVisitorCount_2014;
+        var visitorsCount = stateData.StateVisitorCount_2016;
         console.log(`state: ${stateName} visitors: $(visitorsCount}`);
     });
 
 
 }
+var colors = ['#9B2226', '#BB3E03', '#CA6702', '#EE9B00', '#E9D8A6', '#94D2BD', '#0A9396', '#005f73'];
 
 function getColor(d) {
-    var colors = ['#BB3E03', '#005f73', '#94D2BD', '#CA6702', '#EE9B00', '#0A9396', '#9B2226', '#E9D8A6'];
+    
     console.log(`getColor: ${d}`);
     return d > 10000000 ? colors[0] :
         d > 1000000 ? colors[1] :
@@ -162,7 +171,7 @@ function style(visitorsCount) {
         opacity: 1,
         color: 'white',
         dashArray: '3',
-        fillOpacity: 0.7
+        fillOpacity: 0.5
     };
 }
 
@@ -284,7 +293,7 @@ function createBubblechart(state) {
         resultArray.forEach(trail => {
             trail_difficulty_rating.push(trail.difficulty_rating * 7);
             trail_avg_rating.push(trail.avg_rating);
-            trail_length.push(trail.length_yds/1760);
+            trail_length.push(trail.length_yds / 1760);
             trail_popularity.push(trail.popularity);
             trail_hover_text.push('Trail Name: ' + trail.name +
                 '<br>Park Name: ' + trail.area_name +
