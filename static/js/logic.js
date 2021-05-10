@@ -119,7 +119,7 @@ d3.json(geoData).then(function (data, err) {
                     // alert(`You clicked ${stateName}`); 
                     createLinegraph(stateName);
                     createBubblechart(stateName);
-                    createLegend(stateName);
+                    // createLegend(stateName);
                 });
 
             }
@@ -173,8 +173,21 @@ function style(visitorsCount) {
 console.log(`let's go into the line graph`)
 
 
+
 function createLinegraph(state) {
     d3.json("/parksData").then(parks => {
+    
+        if (typeof window.myLineChart != "undefined"){
+            console.log("myLineChart is defined!! and should be destroyed!")
+            window.myLineChart.destroy();
+        } else{
+            console.log("variable has yet to be defined.")
+        };
+        
+        // "destroying" line plot area
+        // https://github.com/chartjs/Chart.js/issues/1007
+        // accessed 10 May 2021
+
         // state to be selected based on choropleth click
         var selected_state = state
         // console.log("selected state " + selected_state);
@@ -215,17 +228,16 @@ function createLinegraph(state) {
             type: 'line',
             data: data,
             options: {}
-        }
+        };
 
-        var myLineChart = new Chart(
+        window.myLineChart = new Chart(
             document.getElementById('lineChart'),
             config
-        );
+        );       
 
-    }
+    });
+};
 
-    )
-}
 
 console.log(`let's go into the bubble chart`)
 
@@ -299,21 +311,12 @@ function createBubblechart(state) {
 
 
         Plotly.newPlot('bubble', bubbleArray, bubbleLayout);
-        //})
-
-
-
-
-
 
         //console.log(trailData[0]);
 
     });
 }
 
-// function createLegend(state) {
-// // for
-// }
 
 
 function init() {
@@ -325,25 +328,3 @@ function init() {
 };
 
 init();
-
-
-
-
-function updateDashboard(updatedState) {
-
-    createLinegraph(updatedState);
-    createBubblechart(updatedState);
-    createLegend(updatedState);
-}
-
-// // respond to the user input on the Dashboard
-// function onChange() {
-//     //find the input
-//     var stateSelected = ""; // TBD gather the input here
-
-//     // updateDashboard with the state selected
-//     updateDashboard(stateSelected);
-// }
-
-//  Initial Dashboard
-//init();
