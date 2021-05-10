@@ -200,14 +200,14 @@ function createLinegraph(state) {
 }
 
 console.log(`let's go into the bubble chart`)
-// function createBubblechart(state) {
+
+function createBubblechart(state) {
 d3.json('/trailData').then(trailData => {
  
         // console.log("inside trailData");
         // console.log(trailData);
 
-            //Florida California
-            var selected_state = "California"
+            var selected_state = state
             // console.log("selected state " + selected_state);
             var resultArray = trailData.filter(s => s.state_name == selected_state);
             
@@ -281,7 +281,7 @@ d3.json('/trailData').then(trailData => {
         //console.log(trailData[0]);
     
 });
-// }
+}
 
 // function createLegend(state) {
 // // for
@@ -300,10 +300,10 @@ function init() {
     // createChoropleth();
 
     // var selector = d3.select("#selDataset")  //needs the correct selector name
-    var state = "Wisconsin"
+    var state = "Minnesota"
     
     createLinegraph(state);
-    createbubblechart(state);
+    createBubblechart(state);
 
 };
 
