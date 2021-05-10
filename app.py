@@ -2,6 +2,8 @@
 from flask import Flask, render_template, redirect, jsonify
 from config import password, username
 
+import json
+
 # # Import the functions we need from SQL Alchemy
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
@@ -143,6 +145,17 @@ def visitorData():
         dict["StatePctChange_2014"] = StatePctChange_2014
         visitors.append(dict)
     return jsonify(visitors)
+
+@app.route("/mapData")
+def mapData():
+    filename = "./static/data/new_geojson.json"
+    file = open(filename, "r")
+    data = json.loads(file.read())
+       
+    file.close()
+
+    return data
+
 
 
 
