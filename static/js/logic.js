@@ -116,7 +116,10 @@ d3.json(geoData).then(function (data, err) {
                 });
 
                 layer.on('click', function () { 
-                    alert(`You clicked ${stateName}`); 
+                    // alert(`You clicked ${stateName}`); 
+                    createLinegraph(stateName);
+                    createBubblechart(stateName);
+                    createLegend(stateName);
                 });
 
             }
@@ -326,13 +329,12 @@ init();
 
 
 
-// function updateDashboard() {
-//     var =jhk;
+function updateDashboard(updatedState) {
 
-//     createLinegraph(updatedState);
-//     createBubblechart(updatedState);
-//     createLegend(updatedState);
-// }
+    createLinegraph(updatedState);
+    createBubblechart(updatedState);
+    createLegend(updatedState);
+}
 
 // // respond to the user input on the Dashboard
 // function onChange() {
