@@ -21,12 +21,12 @@ Some things to note:
 * California has the most trails and the most National Lands
 * The trail data (bubble chart) only includes information for 30 states 
 
-<h3>Things We Learned</h3>
-Notes on things we learned about doing this project <br>
+### Things We Learned
+Notes on things we learned about doing this project 
 
-<h3>Instructions</h3>
-<h4>Getting Started<h4>
-    1. Go to our shared repo: <a href="https://github.com/njmorr/Exploring-National-Parks">National Parks Repo</a> <br>
+### Instructions
+#### Getting Started
+    1. Go to our shared repo: [National Parks Repo](https://github.com/njmorr/Exploring-National-Parks) 
     1. Clone repo to location of your choosing
     1. Create `config.py` in the main directory and populate with:
 	    * `username = “your_postgres_username”`
@@ -34,7 +34,7 @@ Notes on things we learned about doing this project <br>
     1. Create `config.js` in the subfolder `static/js` with
 	    * `const API_KEY = “your_mapbox_API_key_here”`
 
-<h4>Setting up the Database</h4>
+#### Setting up the Database
 1. Launch pgAdmin
 1. Create a new database called `national_park_db`
 1. Open `query tools` and open `table_create.sql` located in the main directory
