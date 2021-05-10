@@ -20,7 +20,7 @@ connection_string = f'postgresql://{username}:{password}@localhost:5432/{databas
 engine = create_engine(connection_string)
 base = automap_base()
 base.prepare(engine, reflect=True)
-# print(base)
+print(base)
 
 # Choose the table we wish to use
 state_parks_table = base.classes.state_parks
@@ -109,7 +109,7 @@ def trailData():
         dict["state_name"] = state_name
         dict["geoloc"] = _geoloc
         dict["popularity"] = popularity
-        dict["length_yds)"] = length
+        dict["length_yds"] = length
         dict["difficulty_rating"] =difficulty_rating
         dict["route_type"] = route_type
         dict["visitor_usage"] = visitor_usage

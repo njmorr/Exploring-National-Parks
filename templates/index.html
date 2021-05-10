@@ -24,6 +24,7 @@
 
 <body>
   <div class="container">
+    <!-- First Row -->
     <div class="row">
       <!-- Jumbotron -->
       <div id="jumbotron" class="col-md-12">
@@ -34,45 +35,46 @@
 
     <!-- second row-->
     <div class="row">
-    
+
       <!-- chloropleth -->
-      <div class="col-md-8">
-        <div id="choropleth" ></div>
+      <div class="col-md-12">
+        <div id="choropleth"></div>
       </div>
       <!-- <div class="col-md-8">
         <div id="choropleth2" ></div>
       </div> -->
 
-      <!-- State Map -->
+      <!-- State Map
       <div id="state" class="col-md-4">
         <p>State Map</p>
-      </div>
+      </div>-->
 
     </div>
 
-     <!-- third row-->
-     <div class="row">
+    <!-- third row-->
+    <div class="row">
 
       <!-- Line Chart -->
-      <div id="line" class="col-md-4">
-        <p>line graph</p>
-        <p>visitor count by year</p>
+      <div class="col-md-6">
+        <div id="line">
+          <canvas id="lineChart"></canvas>
+        </div>
       </div>
 
       <!-- Bubble Chart -->
-      <div id="bubble" class="col-md-4">
-        <p>Bubble Chart</p>
-        <p>Trail Info</p>
+      <div class="col-md-6">
+        <div id="bubble"></div>
       </div>
 
       <!-- Amenities/activities -->
-      <div id="activities" class="col-md-4">
+      <!-- <div id="activities" class="col-md-4">
         <p>graphic TBD</p>
         <p>Amenities and Activities</p>
-      </div>
+      </div> -->
 
     </div>
 
+    
     <div class="row">
       <div class="col-md-12 footer">
         <p>footer: our names</p>
@@ -87,7 +89,9 @@
 
 
   <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
 
   <!-- d3 JavaScript -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -101,13 +105,12 @@
   <!-- <script src="./static/js/app.js"></script> -->
   <script type="text/javascript" src="../static/js/config.js"></script>
   <script type="text/javascript" src="../static/js/logic.js"></script>
-  <!-- <script type="text/javascript" src="../static/js/logic2.js"></script> -->
-  
 
-  <script src = "https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 
-  
+
 </body>
 
 </html>
