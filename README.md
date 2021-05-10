@@ -1,9 +1,9 @@
 # Exploring National Parks
 
-<h3>Introduction</h3>
+### Introduction
 Welcome to our exploration into the National Park system in the United States.  Most people think of the National Park System as only containing the National Parks (of which there are 61), but there are many different types of lands that fall under the jurisdiction of the National Park Service.  For instance, when interacting with dashboard, you may see these abbreviations: <br>
-    * NB (National Battlefield)
-    * NHP (National Historical Park)
+* NB (National Battlefield)
+* NHP (National Historical Park)
 * NHS (National Historic Site)
 * NL (National Lakeshore)
 * NM (National Monument)
@@ -14,12 +14,12 @@ Welcome to our exploration into the National Park system in the United States.  
 * NS (National Seashore)
 * PKWY (National Parkway)
 
-<h3>How it Works</h3>
-State-related data for Minnesota will be appear when the dashboard is first loaded.  Click on any of the states to dig a bit deeper to what the National Park Service has to offer in that area. <br>
+### How it Works
+State-related data for Minnesota will be appear when the dashboard is first loaded.  Click on any of the states to dig a bit deeper to what the National Park Service has to offer in that area.
 Some things to note:
 * Delaware is the only state in the US without a National Lands
 * California has the most trails and the most National Lands
-* The trail data (bubble chart) only includes information for 30 states <br>
+* The trail data (bubble chart) only includes information for 30 states 
 
 <h3>Things We Learned</h3>
 Notes on things we learned about doing this project <br>
