@@ -17,7 +17,7 @@ Welcome to our exploration into the National Park system in the United States.  
 ### How it Works
 State-related data for Minnesota will be appear when the dashboard is first loaded.  Click on any of the states to dig a bit deeper to what the National Park Service has to offer in that area.
 Some things to note:
-* Delaware is the only state in the US without a National Lands
+* Delaware is the only state in the US without any National Lands
 * California has the most trails and the most National Lands
 * The trail data (bubble chart) only includes information for 30 states 
 
@@ -44,15 +44,16 @@ Some things to note:
 1. Launch pgAdmin
 1. Create a new database called `national_park_db`
 1. Open `query tools` and open `table_create.sql` located in the main directory
-1. Run `table_create.sql` to create three tables one-by-one
+1. Run `table_create.sql` to create three tables, one-by-one
 	* `state_parks`
 	* `state_visitors`
 	* `trails`
-1. Query each table individually and inspect to ensure the first column is noted at as a Primary Key and no data is in the table
+1. Query each table individually and inspect to ensure the first column is noted as a Primary Key and no data is in the table
 
 #### Populate the Database
 1. Launch the jupyter notebook file `NationalParkData.ipynb` located in the main directory
-1. Run cells `NationalParkData.ipynb` until you reach the markdown labeled "GeoJson Magic below!!"
+1. Run cells in `NationalParkData.ipynb` until you reach the markdown labeled "GeoJson Magic below!!"
+	* The cells below this point create an all-inclusive geojson; file is all ready created and is located at `static/data/parks_geojson.js`
 1. Return to pgAdmin and query each table individually to verify each table was populated correctly
 
 #### Launch Application
