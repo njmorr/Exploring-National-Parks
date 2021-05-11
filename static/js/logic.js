@@ -151,7 +151,7 @@ function getStateVisitors(stateName) {
 var colors = ['#9B2226', '#BB3E03', '#CA6702', '#EE9B00', '#E9D8A6', '#94D2BD', '#0A9396', '#005f73'];
 
 function getColor(d) {
-    
+
     console.log(`getColor: ${d}`);
     return d > 10000000 ? colors[0] :
         d > 1000000 ? colors[1] :
@@ -218,7 +218,7 @@ function createLinegraph(state) {
             visitor_2016 = resultArray[i].ParkVisitorCount_2016;
             color = colors[i]
 
-            var parkDataForChart = { "label": park_name, "lineTension": 0.5, "borderWidth": 2, "borderColor": "white", "backgroundColor": color, "data": [visitor_2014, visitor_2015, visitor_2016] };
+            var parkDataForChart = { "label": park_name, "lineTension": 0.2, "borderWidth": 2, "borderColor": "#CA6702", "backgroundColor": color, radius: 5, "data": [visitor_2014, visitor_2015, visitor_2016] };
             chartData.push(parkDataForChart);
         }
 
@@ -329,8 +329,8 @@ function createBubblechart(state) {
             title: `Comparison of Trails in ${selected_state}`,
             showlegend: false,
             autosize: true,
-            height: 400,
-            width: 600,
+            height: '100%',
+            width: '100%',
             xaxis: {
                 title: "Trail Length (miles)"
             },
@@ -340,8 +340,9 @@ function createBubblechart(state) {
 
         };
 
-
         Plotly.newPlot('bubble', bubbleArray, bubbleLayout);
+        
+        
 
         //console.log(trailData[0]);
 
