@@ -28,17 +28,17 @@ body {
   border-color: #0A9396;
   border-style: solid;
   border-width: 5px;
-  height: 50vh;
+  height: 75vh;
   width: 100%;
 }
 
-#state {
+#quote {
   background: #EE9B00;
   color: #040607;
   border-style: solid;
   border-color: #e9d8a6;
   border-width: 5px;
-
+  text-align: center;
 }
 
 #line {
