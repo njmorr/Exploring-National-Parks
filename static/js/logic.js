@@ -291,7 +291,7 @@ function createBubblechart(state) {
         var trail_hover_text = [];
 
         resultArray.forEach(trail => {
-            trail_difficulty_rating.push(trail.difficulty_rating * 7);
+            trail_difficulty_rating.push(trail.difficulty_rating * 10);
             trail_avg_rating.push(trail.avg_rating);
             trail_length.push(trail.length_yds / 1760);
             trail_popularity.push(trail.popularity);
@@ -329,15 +329,16 @@ function createBubblechart(state) {
             title: `Comparison of Trails in ${selected_state}`,
             showlegend: false,
             autosize: true,
-            height: '100%',
-            width: '100%',
+            height: 300,
+            width: 545,
             xaxis: {
                 title: "Trail Length (miles)"
             },
             yaxis: {
                 title: "Trail Popularity"
-            }
-
+            },
+            paper_bgcolor:"#E9D8A6",
+            plot_bgcolor:"#E9D8A6"
         };
 
         Plotly.newPlot('bubble', bubbleArray, bubbleLayout);
